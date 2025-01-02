@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "judson";
+  src: url("/assets/fonts/Judson-Regular.ttf") format("truetype");
+  font-style: normal;
+}
