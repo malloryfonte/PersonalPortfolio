@@ -4,6 +4,12 @@
 
 @font-face {
   font-family: "judson";
-  src: url("/assets/fonts/Judson-Regular.ttf") format("truetype");
+  src: url("./assets/fonts/Judson-Regular.ttf") format("truetype");
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "carattere";
+  src: url("./assets/fonts/Carattere-Regular.ttf") format("truetype");
   font-style: normal;
 }
