@@ -40,6 +40,7 @@ const InstaSwiper = () => {
         style={{
           "--swiper-pagination-color": "rgba(246, 162, 197, 0.8)",
           "--swiper-navigation-color": "rgba(246, 162, 197, 0.8)",
+          "--swiper-pagination-bottom": "35px",
         }}
       >
         <SwiperSlide>Slide 3</SwiperSlide>

@@ -1,11 +1,11 @@
 import React from "react";
 import "./ArrowButton.css";
 
-const ArrowButton = () => {
+const ArrowButton = ({ text, link }) => {
   return (
     <div class="btn-conteiner">
-      <a class="btn-content" href="/Mallory_Fonte_Resume.pdf" target="blank">
-        <span class="btn-title">Resume</span>
+      <a class="btn-content" href={link} target="blank">
+        <span class="btn-title">{text}</span>
         <span class="icon-arrow">
           <svg
             width="66px"
