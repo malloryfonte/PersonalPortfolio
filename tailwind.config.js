@@ -9,6 +9,9 @@ export default {
           2: "#FEECF3",
           3: "#EE5897",
         },
+        brown: {
+          1: "#573C27",
+        },
       },
 
       fontFamily: {

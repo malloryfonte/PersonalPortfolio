@@ -2,24 +2,24 @@ export const navigation = [
   {
     id: "experience",
     title: "Experience",
-    url: "#Experience",
+    url: "/Experience",
   },
 
   {
     id: "contentcreation",
     title: "Content Creation",
-    url: "#ContentCreation",
+    url: "/ContentCreation",
   },
 
   {
     id: "photography",
     title: "Photography",
-    url: "#Photography",
+    url: "/Photography",
   },
   {
     id: "graphicdesign",
     title: "Graphic Design",
-    url: "#GraphicDesign",
+    url: "/GraphicDesign",
   },
 ];
 
@@ -62,5 +62,44 @@ export const contact = [
     target: "_blank",
     link: "/Mallory_Fonte_Resume.pdf",
     path: "M22 0h-20v24h14l6-6v-18zm-7 23h-12v-22h18v16h-6v6zm1-5h4.586l-4.586 4.586v-4.586zm-3 1h-8v1h8v-1zm0-3h-8v1h8v-1zm6-2v-1h-14v1h14zm0-4h-4v1h4v-1zm-6.006 1h-7.991l-.003-.789c-.003-.72-.006-1.615 1.314-1.92 1.483-.341 1.236-.418 1.158-.563-1.078-1.988-.71-3.173-.395-3.703.388-.651 1.089-1.025 1.923-1.025.827 0 1.523.368 1.91 1.011.545.904.409 2.222-.379 3.713-.105.196-.195.255 1.119.559 1.355.312 1.352 1.212 1.35 1.936l-.006.781zm-6.994-1h6c-.007-.547-.07-.626-.54-.734-.855-.198-1.629-.376-1.901-.972-.142-.311-.113-.66.087-1.039.61-1.151.758-2.146.407-2.729-.276-.458-.778-.526-1.053-.526-.48 0-.857.19-1.063.537-.352.59-.201 1.58.414 2.714.204.377.236.727.095 1.039-.269.598-1.036.774-1.847.962-.525.121-.593.202-.599.748zm13-2v-1h-4v1h4zm0-4h-4v1h4v-1z",
+  },
+];
+
+export const experience = [
+  {
+    id: "0",
+    buttontitle: "Freelance",
+    date: "Present",
+    image: "",
+    title: "Freelance Content Creator and Ambassadorships",
+    description:
+      "I’ve had the privilege of partnering with a variety of incredible brands—such as CeraVe, Clinique, American Eagle, Uber One, Amazon Student Prime, and BEARPAW—to create content that authentically represents and supports their mission. As an ambassador and influencer, I’ve cultivated a strong connection with my audience, maintaining an impressive engagement rate of 13-16% and reaching over 4,000 accounts in just the last 30 days. Beyond content creation, I’ve also been involved in planning events and initiatives to spread brand awareness, ensuring impactful engagement both online and offline.",
+  },
+  {
+    id: "1",
+    buttontitle: "SDI Innovations",
+    date: "Present",
+    image: "",
+    title: "SDI Innovations: Social Media Intern",
+    description:
+      "As a Social Media Specialist Intern, I’ve gained valuable experience in videography, photography, and graphic design while creating content for multiple social media platforms. I’ve maintained an engagement rate of 4% or higher by strategizing with the Social Media Manager to develop impactful campaigns that promote brand awareness and company culture. My responsibilities also include crafting caption copy, blogs, and email campaigns, showcasing my ability to communicate effectively across various channels. This role has allowed me to combine creativity with strategy to drive meaningful engagement and growth.",
+  },
+  {
+    id: "2",
+    buttontitle: "American Eagle",
+    date: "Present",
+    image: "",
+    title: "American Eagle Store Social Media Person LOL",
+    description:
+      "In this role, I created photo and video content for the brand, shared on my personal page, and became well-versed in campaign briefs and style guides. I also led one-on-one styling appointments, where I developed strong skills in customer service, sales, teamwork, conflict resolution, and understanding brand identity. This experience helped me build a versatile skill set while contributing to a cohesive and engaging brand presence.",
+  },
+  {
+    id: "3",
+    buttontitle: "Thundrr",
+    date: "Present",
+    image: "",
+    title: "Thundrr make lightning person",
+    description:
+      "In this role, I coached and guided content creators on social media strategies to drive growth and improve audience retention. I collaborated with stakeholders to develop engaging webinar content that aligned with organizational messaging and goals. Additionally, I coordinated outreach efforts to strengthen brand relationships, build industry connections, and enhance overall visibility. This experience allowed me to refine my leadership, communication, and strategic planning skills while contributing to meaningful brand growth.",
   },
 ];

@@ -23,7 +23,9 @@ const LargeTitle = () => {
     <div className="w-[1024px] h-[200px]  text-pink-1 ">
       <div
         className={`items-center justify-center flex font-judson w-full h-full transition-all duration-500 ease-in-out ${
-          nameSlide ? "translate-x-20 opacity-100" : "translate-x-0 opacity-0"
+          nameSlide
+            ? "translate-x-0 opacity-100"
+            : "translate-x-[-60px] opacity-0"
         }`}
       >
         <p className="text-[9rem] font-semibold tracking-wide ">
@@ -33,8 +35,8 @@ const LargeTitle = () => {
       <div
         className={`justify-end w-full flex text-[5rem] mt-[-5rem] font-caraterre transition-all duration-500 ease-in-out ${
           portfolioSlide
-            ? "translate-x-20 opacity-100"
-            : "translate-x-0 opacity-0"
+            ? "translate-x-0 opacity-100"
+            : "translate-x-[-60px] opacity-0"
         }`}
       >
         <p>portfolio</p>
