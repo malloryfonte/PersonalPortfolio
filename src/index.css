@@ -13,3 +13,17 @@
   src: url("./assets/fonts/Carattere-Regular.ttf") format("truetype");
   font-style: normal;
 }
+
+@font-face {
+  font-family: "perandory";
+  src: url("./assets/fonts/Perandory-Condensed.otf") format("truetype");
+  font-style: normal;
+}
+
+.clip-left {
+  clip-path: polygon(0 0, 100% 0, 0 100%);
+}
+
+.clip-right {
+  clip-path: polygon(100% 0, 100% 100%, 0 100%);
+}

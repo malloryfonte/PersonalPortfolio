@@ -1,70 +1,57 @@
-import React, { useState } from "react";
+import React from "react";
 import { experience } from "../../constants";
+import { useState } from "react";
 
 const ExperienceBody = () => {
-  const [activeButton, setActiveButton] = useState(experience[0].id);
+  const [activeSection, setActiveSection] = useState(experience[0].id);
   const [fade, setFade] = useState(true);
 
   // Function to handle button click
-  const handleButtonClick = (index) => {
-    if (index !== activeButton) {
-      setFade(false); // Trigger fade-out
-      setTimeout(() => {
-        setActiveButton(index);
-        setFade(true); // Trigger fade-in
-      }, 400); // Match fade duration
+  const groupedExperience = experience.reduce((acc, expItem) => {
+    // Group by section title
+    if (!acc[expItem.sectiontitle]) {
+      acc[expItem.sectiontitle] = [];
     }
-  };
+    acc[expItem.sectiontitle].push(expItem);
+    return acc;
+  }, {});
+
   return (
-    <div className="w-full h-full items-center flex justify-center transition-all">
-      <div className="w-[70vw] min-w-[1024px] h-[35rem] bg-white rounded-3xl flex relative justify-center border-[4px] border-pink-1 mt-[50px]">
-        <div className="absolute top-0 left-0 w-full flex justify-evenly translate-y-[-50%]">
-          {experience.map((expItem) => (
-            <button
-              key={expItem.id}
-              className={`w-[225px] h-[80px] bg-white border-[4px] border-pink-1 rounded-3xl flex items-center justify-center transition-all duration-400 ease-in-out ${
-                activeButton === expItem.id
-                  ? "text-brown-1 border-brown-1"
-                  : "text-pink-1"
-              }`}
-              onClick={() => handleButtonClick(expItem.id)}
-            >
-              <div className="w-full h-full flex-col ">
-                <div className="flex items-center justify-center">
-                  <p className="text-[1.5rem] ">{expItem.buttontitle}</p>
-                </div>
-                <div className="flex items-center justify-center ">
-                  <div
-                    className={`w-[150px] h-[30px] border-2  flex items-center justify-center rounded-3xl ${
-                      activeButton === expItem.id
-                        ? "border-brown-1"
-                        : "border-pink-1"
-                    }`}
-                  >
-                    <p>{expItem.date}</p>
-                  </div>
-                </div>
+    <div className="w-[1024px] flex flex-col justify-start space-y-10 pt-[6rem]">
+      {Object.keys(groupedExperience).map((sectionTitle) => (
+        <div key={sectionTitle} className="">
+          {/* Section Title */}
+          <div className="text-[8rem] font-perandory text-cream-1 flex items-center justify-center bg-pink-2 ">
+            <p className="mt-[2rem]">{sectionTitle}</p>
+          </div>
+
+          {/* Loop through experiences in this section */}
+          {groupedExperience[sectionTitle].map((expItem) => (
+            <div key={expItem.id} className="">
+              {/* Job Title */}
+              <div className="text-[2rem] font-judson text-black-1 flex items-center justify-start border-pink-2 border-b-4 py-4">
+                <p>{expItem.jobtitle}</p>
               </div>
-            </button>
+
+              {/* At (Social Media Handle) */}
+              <div className="">
+                <p className="text-[2rem] font-judson text-black-1 flex">
+                  {expItem.at}
+                </p>
+              </div>
+
+              {/* Bullet Points */}
+              <div className="space-y-3 mt-10">
+                <ul className="list-disc list-inside text-[1.5rem] font-judson text-black-1">
+                  {expItem.bulletPoints.map((point, index) => (
+                    <li key={index}>{point}</li>
+                  ))}
+                </ul>
+              </div>
+            </div>
           ))}
         </div>
-
-        <div
-          className={`flex w-full h-full  items-center justify-between px-20 transition-all duration-1000 ease-in-out ${
-            fade ? "opacity-100" : "opacity-0"
-          }`}
-        >
-          <div className="w-[17.5rem] h-[25rem] rounded-2xl relative overflow-hidden shadow-card bg-pink-1 items-center flex justify-center ">
-            image
-          </div>
-          <div className="w-[35rem] h-full  flex items-center justify-center text-pink-1">
-            <div className="flex-col space-y-5">
-              <p className="text-[2rem]">{experience[activeButton].title}</p>
-              <p>{experience[activeButton].description}</p>
-            </div>
-          </div>
-        </div>
-      </div>
+      ))}
     </div>
   );
 };

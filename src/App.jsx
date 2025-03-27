@@ -3,6 +3,7 @@ import React from "react";
 import Home from "./pages/Home";
 import Experience from "./pages/Experience";
 import GraphicDesign from "./pages/GraphicDesign";
+import Photography from "./pages/Photography";
 
 const App = () => {
   return (
@@ -12,6 +13,7 @@ const App = () => {
         <Route path="/" element={<Home />} />
         <Route path="/Experience" element={<Experience />} />
         <Route path="/GraphicDesign" element={<GraphicDesign />} />
+        <Route path="/Photography" element={<Photography />} />
       </Routes>
     </BrowserRouter>
   );

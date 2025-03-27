@@ -7,14 +7,14 @@ import HomeConnect from "../components/HomeConnect/HomeConnect";
 
 const Home = () => {
   return (
-    <div className="bg-pink-2/50 w-screen min-h-screen flex-col font-judson">
-      <div className="sticky top-0 z-10 hidden md:block">
+    <div className=" w-screen min-h-screen flex-col font-perandory">
+      <div className="fixed top-0 z-10 hidden w-full md:block">
         <LargeNavigation />
       </div>
 
       <SideLinks />
 
-      <div className="h-screen w-full">
+      <div className="h-full w-full ">
         <HomeIntro />
       </div>
 

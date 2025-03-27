@@ -6,10 +6,10 @@ const LargeNavigation = () => {
   const location = useLocation();
 
   return (
-    <div className="w-full bg-pink-1 h-[80px] px-4 flex">
+    <div className="w-full font-judson h-[80px] bg-[#222222] px-4 flex">
       <div
-        className={` w-full h-full items-center flex text-pink-2 text-2xl  ${
-          location.pathname === "/" ? "text-brown-1" : "text-pink-2"
+        className={` w-full h-full items-center flex text-2xl  ${
+          location.pathname === "/" ? "text-cream-1" : "text-pink-2"
         } `}
       >
         <a href="/">Mallory Fonte</a>
@@ -19,7 +19,7 @@ const LargeNavigation = () => {
           <div
             key={navItem.id}
             className={`w-full h-full items-center flex  text-lg justify-end whitespace-nowrap ${
-              location.pathname === navItem.url ? "text-brown-1" : "text-pink-2"
+              location.pathname === navItem.url ? "text-cream-1" : "text-pink-2"
             }`}
           >
             <a href={navItem.url} className="hover:underline">

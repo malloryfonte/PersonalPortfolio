@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
   --color-text: #ffffff;
-  --color-background: rgba(246, 162, 197, 0.8);
+  --color-background: #222222;
   --color-outline: #ff145b80;
   --color-shadow: #00000080;
 }

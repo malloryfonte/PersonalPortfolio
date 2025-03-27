@@ -5,14 +5,14 @@ import ExperienceBody from "../components/Experience/ExperienceBody";
 
 const Experience = () => {
   return (
-    <div className="bg-pink-2/50 w-screen h-screen flex-col font-judson">
-      <div className="sticky top-0 z-10 hidden md:block">
+    <div className=" w-screen min-h-screen flex-col">
+      <div className="fixed top-0 z-10 hidden w-full md:block">
         <LargeNavigation />
       </div>
 
       <SideLinks />
 
-      <div className="h-[calc(100vh-80px)] w-full flex items-center justify-center ">
+      <div className=" w-full bg-cream-1 items-center flex justify-center">
         <ExperienceBody />
       </div>
     </div>

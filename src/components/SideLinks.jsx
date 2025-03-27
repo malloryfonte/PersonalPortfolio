@@ -3,12 +3,12 @@ import { contact } from "../constants";
 
 const SideLinks = () => {
   return (
-    <div className="fixed top-1/2 left-0 transform -translate-y-1/2 w-[4rem]  flex flex-col items-center justify-center space-y-4">
+    <div className="fixed top-1/2 left-0 transform -translate-y-1/2 w-[4rem]  flex flex-col items-center justify-center space-y-4 z-10">
       {contact.map((contact) => (
         <a
           key={contact.id}
           href={contact.link}
-          className="text-pink-1 hover:text-brown-1 transition-colors"
+          className=" hover:text-brown-1 transition-colors text-pink-2"
           target={contact.target}
         >
           <svg

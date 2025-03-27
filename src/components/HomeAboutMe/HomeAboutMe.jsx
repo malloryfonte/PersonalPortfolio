@@ -3,36 +3,17 @@ import { contact } from "../../constants";
 
 const HomeAboutMe = () => {
   return (
-    <div className="w-full h-full flex items-center justify-center pt-[10rem] text-pink-1">
-      <div className="w-[1024px] h-[37.5rem] flex justify-between ">
-        <div className="w-[25rem] h-[37.5rem] rounded-2xl relative overflow-hidden shadow-card bg-pink-1 items-center flex justify-center ">
-          <div className="flex-col w-[15rem]  space-y-4">
-            <div className="bg-white rounded-full h-[15rem] w-[15rem] overflow-hidden flex justify-center items-center">
-              <img
-                src="/headshot1.jpg"
-                className=" transform scale-[1.5] ml-4"
-              />
-            </div>
-            <div className="text-pink-2 w-full h-full flex items-center justify-center text-[2rem]">
-              <p>Mallory Fonte</p>
-            </div>
-            <div className="w-full h-full flex items-center justify-center">
-              <hr class="w-[7.5rem] border-pink-2 border-t-1" />
-            </div>
-            <div className="text-pink-2 w-full h-full flex items-center justify-center text-[1.5rem]">
-              <div className="flex-col text-center">
-                <p>Social Media Manager</p>
-                <p>Brand Coordinator</p>
-                <p>Graphic Designer</p>
-              </div>
-            </div>
+    <div className="w-full h-full flex items-center justify-center  text-pink-1 relative">
+      <div className="absolute left-0 top-0 right-0 w-full h-1/2 bg-cream-1"></div>
+      <div className="absolute right-0 bottom-0 w-full h-1/2 bg-black-1"></div>
+
+      <div className="w-[1024px] h-[37.5rem] flex justify-between relative gap-x-10 ">
+        <div className="flex flex-col w-[45rem]">
+          <div className="w-full  h-1/2  flex items-center justify-start text-[11rem] pt-[7rem]">
+            <p className=" text-black-1 font-perandory">A bit about me</p>
           </div>
-          <div className="bg-pink-2 w-full h-[4rem] bottom-0 absolute items-center flex justify-center"></div>
-        </div>
-        <div className="w-[35rem] h-full  flex items-center justify-center ">
-          <div className="flex-col">
-            <p className="text-[3rem]">A bit about me</p>
-            <p>
+          <div className="w-full h-1/2 flex items-start justify-start pt-10">
+            <p className="font-judson text-cream-1">
               I'm a junior studying Communications with concentrations in PR and
               Mass Media at Purdue University. On campus, I'm involved with
               Boiler Ambassadors and Higher Ground Dance company. Off campus,
@@ -45,6 +26,17 @@ const HomeAboutMe = () => {
               concerts, spending time with my sisters and friends, and
               photography!
             </p>
+          </div>
+        </div>
+        <div className="flex flex-col items-center justify-center space-y-5">
+          <div className="bg-white rounded-full h-[12rem] w-[12rem] overflow-hidden flex justify-center items-center">
+            <img src="/headshot3.JPG" className="mt-20 mr-5 scale-110" />
+          </div>
+          <div className="bg-white rounded-full h-[12rem] w-[12rem] overflow-hidden flex justify-center items-center">
+            <img src="/headshot2.jpg" className=" " />
+          </div>
+          <div className="bg-white rounded-full h-[12rem] w-[12rem] overflow-hidden flex justify-center items-center">
+            <img src="/headshot2.jpg" className=" " />
           </div>
         </div>
       </div>

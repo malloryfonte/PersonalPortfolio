@@ -29,15 +29,26 @@ export const rolecards = [
     title: "Social Media Manager",
     image: "/socialmedia.jpg",
   },
-  {
-    id: "brandcoordinator",
-    title: "Brand Coordinator",
-    image: "/brandcoordinator.jpg",
-  },
+
   {
     id: "graphicdesigner",
     title: "Graphic Designer",
-    image: "/graphicdesign.jpg",
+    image: "/GraphicDesigncard.png",
+  },
+  {
+    id: "headshot",
+    title: "Headshot",
+    image: "/headshot1.jpg",
+  },
+  {
+    id: "photographer",
+    title: "Photographer",
+    image: "/MALLORY@SDI.png",
+  },
+  {
+    id: "photographer",
+    title: "Photographer",
+    image: "/MALLORY@SDI.png",
   },
 ];
 
@@ -68,38 +79,206 @@ export const contact = [
 export const experience = [
   {
     id: "0",
-    buttontitle: "Freelance",
-    date: "Present",
-    image: "",
-    title: "Freelance Content Creator and Ambassadorships",
-    description:
-      "I’ve had the privilege of partnering with a variety of incredible brands—such as CeraVe, Clinique, American Eagle, Uber One, Amazon Student Prime, and BEARPAW—to create content that authentically represents and supports their mission. As an ambassador and influencer, I’ve cultivated a strong connection with my audience, maintaining an impressive engagement rate of 13-16% and reaching over 4,000 accounts in just the last 30 days. Beyond content creation, I’ve also been involved in planning events and initiatives to spread brand awareness, ensuring impactful engagement both online and offline.",
+    sectiontitle: "Social Media Management",
+    jobtitle: "Content Creation and Ambassadorships- Freelance 2022-Present",
+    at: "@mallory.fonte",
+    bulletPoints: [
+      "Developed marketing content including social media updates, blogs, and video campaigns to post on my personal page, supporting brands as an ambassador/influencer.",
+      "Brands represented include CeraVe, Clinique, American Eagle, Uber One, Amazon Student Prime, Cramify.ai, and BEARPAW.",
+      "Maintained an engagement rate between 13%-16% and reached over 4,000 accounts in the last 30 days.",
+      "Collaborated with marketing teams and brand partners to develop engaging social media campaigns and track performance.",
+      "Expanded skills in brand identity, event planning, campaign execution, digital marketing, PR, networking, idea-pitching, product marketing, photography, videography, visual branding, and content strategy.",
+    ],
   },
   {
     id: "1",
-    buttontitle: "SDI Innovations",
-    date: "Present",
-    image: "",
-    title: "SDI Innovations: Social Media Intern",
-    description:
-      "As a Social Media Specialist Intern, I’ve gained valuable experience in videography, photography, and graphic design while creating content for multiple social media platforms. I’ve maintained an engagement rate of 4% or higher by strategizing with the Social Media Manager to develop impactful campaigns that promote brand awareness and company culture. My responsibilities also include crafting caption copy, blogs, and email campaigns, showcasing my ability to communicate effectively across various channels. This role has allowed me to combine creativity with strategy to drive meaningful engagement and growth.",
+    sectiontitle: "Social Media Management",
+    jobtitle:
+      "Marketing and Communications Intern - SDI Innovations 08/2023-01/2025",
+    at: "@sdiinnovations",
+    bulletPoints: [
+      "Created graphic designs for multiple social media platforms (Instagram, TikTok, Twitter, Facebook), pitch decks, and campaign reports.",
+      "Maintained an engagement rate of 4% or higher on social platforms, and assisted with community management/engagement, social listening, PR campaigns, influencer outreach, and media relations.",
+      "Strategized and developed campaigns with the Social Media Manager to promote brand awareness and company culture, as well as conducted trend and performance analysis.",
+      "Conducted market research and competitive analysis to inform campaign strategies.",
+      "Wrote caption copy, blogs, and email marketing, while also gaining skills in project management.",
+      "Created and produced a video series that achieved 3.1K+ pageviews and 2.6K visitors in a single month, while maintaining an average time-on-page of 2+ minutes.",
+    ],
   },
   {
     id: "2",
-    buttontitle: "American Eagle",
-    date: "Present",
-    image: "",
-    title: "American Eagle Store Social Media Person LOL",
-    description:
-      "In this role, I created photo and video content for the brand, shared on my personal page, and became well-versed in campaign briefs and style guides. I also led one-on-one styling appointments, where I developed strong skills in customer service, sales, teamwork, conflict resolution, and understanding brand identity. This experience helped me build a versatile skill set while contributing to a cohesive and engaging brand presence.",
+    sectiontitle: "Content Creation",
+    jobtitle:
+      "Vlogger and Content Creator - Boiler Ambassadors 08/2024-Present",
+    at: "@boilerambassadors and @lifeatpurdue",
+    bulletPoints: [
+      "Serve as a Boiler Ambassador at Purdue University, developing engaging digital content to connect with prospective and current students while promoting university life and campus culture.",
+      "Produce high-quality video and photo content for Instagram and YouTube, showcasing student experiences, campus events, and academic opportunities to enhance Purdue’s online presence.",
+      "Achieved a reach of over 200,000 users, leveraging strategic content creation and platform engagement to increase visibility and interaction with Purdue’s digital audience.",
+    ],
   },
   {
     id: "3",
-    buttontitle: "Thundrr",
-    date: "Present",
-    image: "",
-    title: "Thundrr make lightning person",
-    description:
-      "In this role, I coached and guided content creators on social media strategies to drive growth and improve audience retention. I collaborated with stakeholders to develop engaging webinar content that aligned with organizational messaging and goals. Additionally, I coordinated outreach efforts to strengthen brand relationships, build industry connections, and enhance overall visibility. This experience allowed me to refine my leadership, communication, and strategic planning skills while contributing to meaningful brand growth.",
+    sectiontitle: "Content Creation",
+    jobtitle:
+      "Senior Brand Ambassador and Influencer - American Eagle 10/2020-01/2024",
+    at: "@mallory.fonte and featured on @americaneagle",
+    bulletPoints: [
+      "Produced high-quality photo and video content for the brand, showcasing products on my personal platform to drive engagement.",
+      "Interpreted and applied campaign briefs and style guides to ensure brand consistency.",
+      "Conducted personalized one-on-one styling appointments, enhancing the customer experience and boosting sales.",
+      "Developed strong skills in customer service, sales, teamwork, conflict resolution, and brand representation.",
+    ],
+  },
+  {
+    id: "4",
+    sectiontitle: "Professional Development",
+    jobtitle:
+      "STEM Education Works- Professional Development and Curriculum Intern 01/2025-05/2025",
+    at: "",
+    bulletPoints: [
+      "Review, edit, and refine K-5 STEM curriculum lesson plans to enhance clarity, engagement, and educational effectiveness.",
+      "Train and support clients in implementing STEM technology, developing comprehensive user guides to ensure seamless integration.",
+      "Create visually compelling marketing materials, slideshows, and event signage to enhance brand presence and engagement.",
+      "Develop and coordinate community programs centered on STEM topics, fostering education and outreach initiatives.",
+    ],
+  },
+  {
+    id: "5",
+    sectiontitle: "Professional Development",
+    jobtitle: "Thundrr- Intern 06/2023-08/2023",
+    at: "",
+    bulletPoints: [
+      "Coached and guided content creators on social media strategy to drive growth and audience retention.",
+      "Partnered with stakeholders to develop webinar content that aligned with organizational messaging.",
+      "Coordinated outreach efforts to strengthen brand relationships and build industry connections.",
+    ],
+  },
+];
+
+export const photonav = [
+  {
+    id: "0",
+    title: "Portraits",
+    url: "#Portraits",
+    images: [
+      "/Photography/Portraits/Photog1.JPG",
+      "/Photography/Portraits/Photog3.jpg",
+      "/Photography/Portraits/photog5.png",
+      "/Photography/Portraits/photog6.png",
+      "/Photography/Portraits/photog7.png",
+      "/Photography/Portraits/photog8.png",
+      "/Photography/Portraits/portrait1.jpg",
+      "/Photography/Portraits/portrait2.JPG",
+      "/Photography/Portraits/portrait4.JPG",
+      "/Photography/Portraits/portrait5.JPG",
+      "/Photography/Portraits/portrait6.jpg",
+      "/Photography/Portraits/portrait7.JPG",
+      "/Photography/Portraits/portrait8.jpg",
+      "/Photography/Portraits/portrait9.jpg",
+    ],
+  },
+  {
+    id: "1",
+    title: "Concerts",
+    url: "#Concerts",
+    images: [
+      "/Photography/Concerts/conan1.jpg",
+      "/Photography/Concerts/conan2.jpg",
+      "/Photography/Concerts/conan3.jpg",
+      "/Photography/Concerts/maddison1.jpg",
+
+      "/Photography/Concerts/maddison3.JPG",
+      "/Photography/Concerts/top1.jpg",
+      "/Photography/Concerts/top2.JPG",
+      "/Photography/Concerts/top3.jpg",
+      "/Photography/Concerts/rando1.jpg",
+      "/Photography/Concerts/rando2.JPG",
+      "/Photography/Concerts/rando3.JPG",
+      "/Photography/Concerts/rick1.jpg",
+      "/Photography/Concerts/rick2.jpg",
+      "/Photography/Concerts/rick3.jpg",
+    ],
+  },
+  {
+    id: "2",
+    title: "Products",
+    url: "#Products",
+    images: [
+      "/Photography/Products/products1.JPG",
+      "/Photography/Products/products2.jpg",
+      "/Photography/Products/products3.jpg",
+      "/Photography/Products/products4.jpg",
+    ],
+  },
+  {
+    id: "3",
+    title: "Nature",
+    url: "#Nature",
+    images: [
+      "/Photography/Nature/nature1.jpg",
+      "/Photography/Nature/nature2.jpg",
+      "/Photography/Nature/nature3.JPG",
+      "/Photography/Nature/nature4.jpg",
+      "/Photography/Nature/nature5.JPG",
+    ],
+  },
+];
+
+export const graphicnav = [
+  {
+    id: "0",
+    title: "SDI Innovations",
+    images: [
+      "/GraphicDesign/SDI/GD1.png",
+      "/GraphicDesign/SDI/GD2.png",
+      "/GraphicDesign/SDI/GD3.png",
+      "/GraphicDesign/SDI/GD4.png",
+      "/GraphicDesign/SDI/GD5.png",
+      "/GraphicDesign/SDI/GD6.png",
+      "/GraphicDesign/SDI/GD7.png",
+    ],
+  },
+  {
+    id: "1",
+    title: "Purdue Student Government",
+    images: [
+      "/GraphicDesign/Logos/Logo1.png",
+      "/GraphicDesign/Logos/Logo2.png",
+      "/GraphicDesign/Logos/Logo3.png",
+      "/GraphicDesign/Logos/Logo4.png",
+      "/GraphicDesign/Logos/Logo5.png",
+      "/GraphicDesign/Logos/Logo6.png",
+      "/GraphicDesign/Logos/Logo7.png",
+      "/GraphicDesign/Logos/Logo8.png",
+    ],
+  },
+  {
+    id: "2",
+    title: "Mental Health Action Week",
+    images: [
+      "/GraphicDesign/Logos/Logo1.png",
+      "/GraphicDesign/Logos/Logo2.png",
+      "/GraphicDesign/Logos/Logo3.png",
+      "/GraphicDesign/Logos/Logo4.png",
+      "/GraphicDesign/Logos/Logo5.png",
+      "/GraphicDesign/Logos/Logo6.png",
+      "/GraphicDesign/Logos/Logo7.png",
+      "/GraphicDesign/Logos/Logo8.png",
+    ],
+  },
+  {
+    id: "3",
+    title: "Personal Projects",
+    images: [
+      "/GraphicDesign/Logos/Logo1.png",
+      "/GraphicDesign/Logos/Logo2.png",
+      "/GraphicDesign/Logos/Logo3.png",
+      "/GraphicDesign/Logos/Logo4.png",
+      "/GraphicDesign/Logos/Logo5.png",
+      "/GraphicDesign/Logos/Logo6.png",
+      "/GraphicDesign/Logos/Logo7.png",
+      "/GraphicDesign/Logos/Logo8.png",
+    ],
   },
 ];
