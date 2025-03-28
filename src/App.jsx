@@ -7,7 +7,7 @@ import Photography from "./pages/Photography";
 
 const App = () => {
   return (
-    <BrowserRouter basename="">
+    <BrowserRouter basename="/PersonalPortfolio">
       {/* Replace with your repo name */}
       <Routes>
         <Route path="/" element={<Home />} />
