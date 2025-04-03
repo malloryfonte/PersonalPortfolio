@@ -1,6 +1,8 @@
 import React from "react";
 import { experience } from "../../constants";
 import { useState } from "react";
+import ArrowButton from "../HomeConnect/ArrowButton";
+import { graphicnav } from "../../constants";
 
 const ExperienceBody = () => {
   const [activeSection, setActiveSection] = useState(experience[0].id);
@@ -17,19 +19,24 @@ const ExperienceBody = () => {
   }, {});
 
   return (
-    <div className="w-[1024px] flex flex-col justify-start space-y-10 pt-[6rem]">
+    <div className="w-[1024px] flex flex-col items-center pb-[6rem]">
+      <div className="text-[12rem] font-perandory pt-20 text-black-1">
+        <p className="m-0">Experience</p>
+      </div>
+
+      <ArrowButton text="Resume" link="/Mallory_Fonte_Resume.pdf" />
       {Object.keys(groupedExperience).map((sectionTitle) => (
         <div key={sectionTitle} className="">
           {/* Section Title */}
-          <div className="text-[8rem] font-perandory text-cream-1 flex items-center justify-center bg-pink-2 ">
-            <p className="mt-[2rem]">{sectionTitle}</p>
+          <div className="text-[8rem] font-perandory text-cream-1 flex items-center justify-center bg-pink-2 h-[10rem] mt-[2rem]">
+            <p className="m-0 mt-[2rem]">{sectionTitle}</p>
           </div>
 
           {/* Loop through experiences in this section */}
           {groupedExperience[sectionTitle].map((expItem) => (
             <div key={expItem.id} className="">
               {/* Job Title */}
-              <div className="text-[2rem] font-judson text-black-1 flex items-center justify-start border-pink-2 border-b-4 py-4">
+              <div className="text-[2rem] font-judson text-black-1 flex items-center justify-start border-pink-2 border-b-4 pt-[3rem]">
                 <p>{expItem.jobtitle}</p>
               </div>
 

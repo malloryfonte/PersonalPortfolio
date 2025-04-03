@@ -1,10 +1,9 @@
 import React from "react";
-import { useLocation } from "react-router-dom";
+import { useLocation, Link } from "react-router-dom";
 import { navigation } from "../constants";
 
 const LargeNavigation = () => {
   const location = useLocation();
-  const basePath = "/PersonalPortfolio";
 
   return (
     <div className="w-full font-judson h-[80px] bg-[#222222] px-4 flex">
@@ -13,12 +12,10 @@ const LargeNavigation = () => {
           location.pathname === "/" ? "text-cream-1" : "text-pink-2"
         } `}
       >
-        <a href="/">Mallory Fonte</a>
+        <Link to="/">Mallory Fonte</Link>
       </div>
       <div className="flex gap-10">
         {navigation.map((navItem) => {
-          const fullUrl = `${basePath}${navItem.url}`; // Ensure correct URL format
-
           return (
             <div
               key={navItem.id}
@@ -28,9 +25,9 @@ const LargeNavigation = () => {
                   : "text-pink-2"
               }`}
             >
-              <a href={fullUrl} className="hover:underline">
+              <Link to={navItem.url} className="hover:underline">
                 {navItem.title}
-              </a>
+              </Link>
             </div>
           );
         })}

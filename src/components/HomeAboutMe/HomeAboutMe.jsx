@@ -31,15 +31,15 @@ const HomeAboutMe = () => {
         <div className="flex flex-col items-center justify-center space-y-5">
           <div className="bg-white rounded-full h-[12rem] w-[12rem] overflow-hidden flex justify-center items-center">
             <img
-              src="/PersonalPortfolio/headshot3.JPG"
+              src="/PersonalPortfolio//headshot3.JPG"
               className="mt-20 mr-5 scale-110"
             />
           </div>
           <div className="bg-white rounded-full h-[12rem] w-[12rem] overflow-hidden flex justify-center items-center">
-            <img src="/PersonalPortfolio/headshot2.jpg" className=" " />
+            <img src="/PersonalPortfolio//CIRCLEPHOTO2.jpg" className=" " />
           </div>
           <div className="bg-white rounded-full h-[12rem] w-[12rem] overflow-hidden flex justify-center items-center">
-            <img src="/PersonalPortfolio/headshot2.jpg" className=" " />
+            <img src="/PersonalPortfolio//ciricle3.JPG" className=" " />
           </div>
         </div>
       </div>

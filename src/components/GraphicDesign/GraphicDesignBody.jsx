@@ -20,7 +20,7 @@ const GraphicDesignBody = () => {
   return (
     <div className="w-[1024px] flex flex-col items-center bg-black-1 ">
       <div className="text-[12rem] font-perandory pt-20 text-cream-1">
-        <p>Graphic Design</p>
+        <p className="m-0">Graphic Design</p>
       </div>
       <div className="flex rounded-lg w-[55rem] h-[50px] overflow-hidden mt-[-3rem]">
         {graphicnav.map((item) => (
