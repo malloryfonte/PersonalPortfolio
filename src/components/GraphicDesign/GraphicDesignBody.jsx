@@ -22,7 +22,19 @@ const GraphicDesignBody = () => {
       <div className="text-[12rem] font-perandory pt-20 text-cream-1">
         <p className="m-0">Graphic Design</p>
       </div>
-      <div className="flex rounded-lg w-[55rem] h-[50px] overflow-hidden mt-[-3rem]">
+      <div className="w-full mt-[-3rem] text-[1.2rem] text-center font-judson text-cream-1 mb-[3rem]">
+        <p>
+          As a graphic designer, I’ve created dynamic visual content for a
+          variety of audiences—ranging from internal marketing materials at SDI
+          Innovations and its sub-brands to spotlight features and social media
+          graphics for Purdue Student Government. My work blends strategy with
+          creativity, always aiming to elevate brand identity while keeping
+          messaging clear and engaging. Whether designing intern features,
+          promotional campaigns, or digital assets, I focus on cohesive visuals
+          that connect and communicate.
+        </p>
+      </div>
+      <div className="flex rounded-lg w-[55rem] h-[50px] overflow-hidden ">
         {graphicnav.map((item) => (
           <div
             className="w-full h-full flex items-center justify-center"

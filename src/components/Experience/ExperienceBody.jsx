@@ -3,6 +3,7 @@ import { experience } from "../../constants";
 import { useState } from "react";
 import ArrowButton from "../HomeConnect/ArrowButton";
 import { graphicnav } from "../../constants";
+import ToolTag from "./ToolTag";
 
 const ExperienceBody = () => {
   const [activeSection, setActiveSection] = useState(experience[0].id);
@@ -20,15 +21,44 @@ const ExperienceBody = () => {
 
   return (
     <div className="w-[1024px] flex flex-col items-center pb-[6rem]">
-      <div className="text-[12rem] font-perandory pt-20 text-black-1">
+      <div className="text-[12rem] font-perandory pt-20 text-black-1 ">
         <p className="m-0">Experience</p>
       </div>
+      <div className="w-full mt-[-3rem] rounded-sm grid grid-cols-1 md:grid-cols-6">
+        {/* Left Column */}
+        <div className="flex flex-col items-start gap-2 col-span-1 ">
+          <ToolTag label="Canva" />
+          <ToolTag label="Adobe Creative Suite" />
+          <ToolTag label="Google Workspace" />
+          <ToolTag label="Microsoft Office" />
+          <ToolTag label="CapCut" />
+        </div>
 
-      <ArrowButton text="Resume" link="/Mallory_Fonte_Resume.pdf" />
+        {/* Center Title */}
+        <div className="flex flex-col items-center col-span-4    h-full mt-[-.5rem]">
+          <p className="text-[8rem] font-perandory text-black-1 text-center leading-tight">
+            Digital Literacy
+          </p>
+          <ArrowButton
+            text="Resume"
+            link="/PersonalPortfolio/Mallory_Fonte_Resume.pdf"
+          />
+        </div>
+
+        {/* Right Column */}
+        <div className="flex flex-col items-end gap-2 col-span-1">
+          <ToolTag label="Sprout Social" />
+          <ToolTag label="Hootsuite" />
+          <ToolTag label="Buffer" />
+          <ToolTag label="Meta Business Suite" />
+          <ToolTag label="iMovie" />
+        </div>
+      </div>
+
       {Object.keys(groupedExperience).map((sectionTitle) => (
-        <div key={sectionTitle} className="">
+        <div key={sectionTitle} className="w-full">
           {/* Section Title */}
-          <div className="text-[8rem] font-perandory text-cream-1 flex items-center justify-center bg-pink-2 h-[10rem] mt-[2rem]">
+          <div className="text-[8rem] font-perandory text-cream-1 flex items-center justify-center bg-pink-2 h-[10rem] mt-[2rem] rounded-sm">
             <p className="m-0 mt-[2rem]">{sectionTitle}</p>
           </div>
 
@@ -41,11 +71,13 @@ const ExperienceBody = () => {
               </div>
 
               {/* At (Social Media Handle) */}
-              <div className="">
-                <p className="text-[2rem] font-judson text-black-1 flex">
-                  {expItem.at}
-                </p>
-              </div>
+              {expItem.at && (
+                <div>
+                  <p className="text-[2rem] font-judson text-black-1 flex">
+                    Instagram account affiliated: {expItem.at}
+                  </p>
+                </div>
+              )}
 
               {/* Bullet Points */}
               <div className="space-y-3 mt-10">

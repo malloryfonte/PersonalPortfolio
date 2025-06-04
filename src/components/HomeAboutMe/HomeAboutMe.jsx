@@ -13,7 +13,7 @@ const HomeAboutMe = () => {
             <p className=" text-black-1 font-perandory">A bit about me</p>
           </div>
           <div className="w-full h-1/2 flex items-start justify-start pt-10">
-            <p className="font-judson text-cream-1">
+            <p className="font-judson text-cream-1 text-[1.25rem]">
               I'm a junior studying Communications with concentrations in PR and
               Mass Media at Purdue University. On campus, I'm involved with
               Boiler Ambassadors and Higher Ground Dance company. Off campus,

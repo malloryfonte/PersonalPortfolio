@@ -154,6 +154,43 @@ export const experience = [
       "Coordinated outreach efforts to strengthen brand relationships and build industry connections.",
     ],
   },
+  {
+    id: "6",
+    sectiontitle: "Leadership",
+    jobtitle:
+      "Purdue Student Government- Executive Director of Communications and Deputy Chief of Staff",
+    at: "",
+    bulletPoints: [
+      "I led university-wide communications strategies, managed multi-platform content, and oversaw a team dedicated to student outreach and engagement.",
+      "I collaborated closely with campus partners to promote PSG initiatives, crafted messaging for key events and policies, and supported internal operations to ensure smooth coordination across branches.",
+      "These roles strengthened my leadership, strategic planning, and crisis communication skills, while deepening my understanding of how to effectively represent and advocate for a large, diverse student body.      ",
+    ],
+  },
+  {
+    id: "7",
+    sectiontitle: "Leadership",
+    jobtitle: "Higher Ground Dance Company- Choreographer",
+    at: "",
+    bulletPoints: [
+      "I created original pieces that emphasized storytelling, musicality, and emotional connection across various dance styles.",
+      "Beyond choreography, I focused heavily on teaching—leading rehearsals with an emphasis on clarity, patience, and adaptability.",
+      "I tailored instruction to meet the needs of different learning styles, using a mix of visual, verbal, and kinesthetic methods to ensure every dancer felt confident and supported.",
+      "This role deepened my skills in creative leadership, collaborative direction, and inclusive teaching, all while fostering a positive and expressive rehearsal environment.",
+    ],
+  },
+  {
+    id: "8",
+    sectiontitle: "Awards",
+    jobtitle: "",
+    at: "",
+    bulletPoints: [
+      "Best Short Form Video Award at the Purdue Gold Carpet Gala 2023, 2024",
+      "Achievement in Social Media (personal) at the Purdue Gold Carpet Gala 2024",
+      "Clinique on Campus Top Ambassador Fall 2024",
+      "Outstanding Underclassman- Higher Ground Dance Company Spring 2024",
+      "Job ready scholarship summer 2025",
+    ],
+  },
 ];
 
 export const photonav = [
@@ -228,7 +265,7 @@ export const photonav = [
 export const graphicnav = [
   {
     id: "0",
-    title: "SDI Innovations",
+    title: "Marketing",
     images: [
       "/PersonalPortfolio//GraphicDesign/SDI/GD1.png",
       "/PersonalPortfolio//GraphicDesign/SDI/GD2.png",
@@ -241,12 +278,6 @@ export const graphicnav = [
       "/PersonalPortfolio//GraphicDesign/SDI/GD9.png",
       "/PersonalPortfolio//GraphicDesign/SDI/GD10.png",
       "/PersonalPortfolio//GraphicDesign/SDI/GD11.png",
-    ],
-  },
-  {
-    id: "1",
-    title: "Purdue Student Government",
-    images: [
       "/PersonalPortfolio//GraphicDesign/PSG/GDPSG.png",
       "/PersonalPortfolio//GraphicDesign/PSG/GDPSG2.png",
       "/PersonalPortfolio//GraphicDesign/PSG/GDPSG3.png",
@@ -257,7 +288,7 @@ export const graphicnav = [
   },
 ];
 
-export const contentcreation = [
+export const contentcreationreels = [
   {
     id: "0",
     image: "/PersonalPortfolio//ContentCreation/ContentCreation1.png",
@@ -312,5 +343,18 @@ export const contentcreation = [
     id: "10",
     image: "/PersonalPortfolio//ContentCreation/ContentCreation11.png",
     url: "https://www.instagram.com/reel/C7PGvijuIdJ/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+  },
+];
+
+export const longformcontent = [
+  {
+    id: "0",
+    image: "/PersonalPortfolio//ContentCreation/Long-form1.png",
+    url: "https://youtu.be/5Yy5siNdwQE",
+  },
+  {
+    id: "1",
+    image: "/PersonalPortfolio//ContentCreation/Long-form2.png",
+    url: "https://youtu.be/lWtqO1HDk94",
   },
 ];
