@@ -21,6 +21,11 @@ export const navigation = [
     title: "Graphic Design",
     url: "/GraphicDesign",
   },
+  {
+    id: "campaignscopy",
+    title: "Campaigns & Copy",
+    url: "/CampaignsCopy",
+  },
 ];
 
 export const rolecards = [
@@ -193,12 +198,62 @@ export const experience = [
   },
 ];
 
+export const Billie = [
+  {
+    images: [
+      "/PersonalPortfolio//Campaigns/Billie/Billie1.png",
+      "/PersonalPortfolio//Campaigns/Billie/Billie2.png",
+      "/PersonalPortfolio//Campaigns/Billie/Billie3.png",
+      "/PersonalPortfolio//Campaigns/Billie/Billie4.png",
+      "/PersonalPortfolio//Campaigns/Billie/Billie5.png",
+      "/PersonalPortfolio//Campaigns/Billie/Billie6.png",
+      "/PersonalPortfolio//Campaigns/Billie/Billie7.png",
+      "/PersonalPortfolio//Campaigns/Billie/Billie8.png",
+      "/PersonalPortfolio//Campaigns/Billie/Billie9.png",
+      "/PersonalPortfolio//Campaigns/Billie/Billie10.png",
+      "/PersonalPortfolio//Campaigns/Billie/Billie11.png",
+      "/PersonalPortfolio//Campaigns/Billie/Billie12.png",
+      "/PersonalPortfolio//Campaigns/Billie/Billie13.png",
+      "/PersonalPortfolio//Campaigns/Billie/Billie14.png",
+      "/PersonalPortfolio//Campaigns/Billie/Billie15.png",
+    ],
+  },
+];
+
 export const photonav = [
   {
     id: "0",
     title: "Portraits",
     url: "#Portraits",
     images: [
+      "/PersonalPortfolio//Photography/Portraits/CC1.jpg",
+      "/PersonalPortfolio//Photography/Portraits/CC2.jpg",
+      "/PersonalPortfolio//Photography/Portraits/CC3.jpg",
+      "/PersonalPortfolio//Photography/Portraits/CC4.jpg",
+      "/PersonalPortfolio//Photography/Portraits/Grad1.JPG",
+      "/PersonalPortfolio//Photography/Portraits/Grad2.JPG",
+      "/PersonalPortfolio//Photography/Portraits/Grad3.JPG",
+      "/PersonalPortfolio//Photography/Portraits/Grad4.JPEG",
+      "/PersonalPortfolio//Photography/Portraits/Grad5.JPG",
+      "/PersonalPortfolio//Photography/Portraits/Grad6.JPG",
+      "/PersonalPortfolio//Photography/Portraits/Grad7.JPG",
+      "/PersonalPortfolio//Photography/Portraits/Grad8.JPG",
+      "/PersonalPortfolio//Photography/Portraits/Grad9.JPG",
+      "/PersonalPortfolio//Photography/Portraits/Grad10.JPG",
+      "/PersonalPortfolio//Photography/Portraits/Grad11.JPG",
+      "/PersonalPortfolio//Photography/Portraits/Grad12.JPG",
+      "/PersonalPortfolio//Photography/Portraits/Grad13.JPG",
+      "/PersonalPortfolio//Photography/Portraits/Grad14.JPG",
+      "/PersonalPortfolio//Photography/Portraits/Grad15.JPG",
+      "/PersonalPortfolio//Photography/Portraits/Grad16.JPG",
+      "/PersonalPortfolio//Photography/Portraits/Grad17.JPG",
+      "/PersonalPortfolio//Photography/Portraits/Grad18.JPG",
+      "/PersonalPortfolio//Photography/Portraits/Grad19.JPG",
+      "/PersonalPortfolio//Photography/Portraits/Grad20.JPG",
+      "/PersonalPortfolio//Photography/Portraits/Grad21.JPG",
+      "/PersonalPortfolio//Photography/Portraits/Grad22.JPG",
+      "/PersonalPortfolio//Photography/Portraits/Grad23.JPG",
+      "/PersonalPortfolio//Photography/Portraits/Grad24.JPG",
       "/PersonalPortfolio//Photography/Portraits/Photog1.JPG",
       "/PersonalPortfolio//Photography/Portraits/Photog3.jpg",
       "/PersonalPortfolio//Photography/Portraits/photog5.png",
@@ -206,11 +261,8 @@ export const photonav = [
       "/PersonalPortfolio//Photography/Portraits/photog7.png",
       "/PersonalPortfolio//Photography/Portraits/photog8.png",
       "/PersonalPortfolio//Photography/Portraits/portrait1.jpg",
-      "/PersonalPortfolio//Photography/Portraits/portrait2.JPG",
       "/PersonalPortfolio//Photography/Portraits/portrait4.JPG",
       "/PersonalPortfolio//Photography/Portraits/portrait5.JPG",
-      "/PersonalPortfolio//Photography/Portraits/portrait6.jpg",
-      "/PersonalPortfolio//Photography/Portraits/portrait7.JPG",
       "/PersonalPortfolio//Photography/Portraits/portrait8.jpg",
       "/PersonalPortfolio//Photography/Portraits/portrait9.jpg",
     ],
@@ -243,7 +295,7 @@ export const photonav = [
     url: "#Products",
     images: [
       "/PersonalPortfolio//Photography/Products/products1.JPG",
-      "/PersonalPortfolio//Photography/Products/products2.jpg",
+      "/PersonalPortfolio//Photography/Products/NEWproducts6.jpg",
       "/PersonalPortfolio//Photography/Products/products3.jpg",
       "/PersonalPortfolio//Photography/Products/products4.jpg",
     ],

@@ -22,7 +22,7 @@ const Home = () => {
         <HomeAboutMe />
       </div>
 
-      <div className=" w-full ">
+      <div className=" h-auto w-full ">
         <HomeConnect />
       </div>
     </div>

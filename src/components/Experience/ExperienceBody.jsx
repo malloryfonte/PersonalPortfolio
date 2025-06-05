@@ -42,6 +42,7 @@ const ExperienceBody = () => {
           <ArrowButton
             text="Resume"
             link="/PersonalPortfolio/Mallory_Fonte_Resume.pdf"
+            newTab={true}
           />
         </div>
 

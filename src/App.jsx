@@ -5,6 +5,8 @@ import Experience from "./pages/Experience";
 import GraphicDesign from "./pages/GraphicDesign";
 import Photography from "./pages/Photography";
 import ContentCreation from "./pages/ContentCreation";
+import CopyCampaigns from "./pages/CopyCampaigns";
+import BilliePage from "./components/CampaignCopy/BilliePage";
 
 const App = () => {
   return (
@@ -16,6 +18,8 @@ const App = () => {
         <Route path="/GraphicDesign" element={<GraphicDesign />} />
         <Route path="/Photography" element={<Photography />} />
         <Route path="/ContentCreation" element={<ContentCreation />} />
+        <Route path="/CampaignsCopy" element={<CopyCampaigns />} />
+        <Route path="/CampaignsCopy/BillieEilish" element={<BilliePage />} />
       </Routes>
     </Router>
   );

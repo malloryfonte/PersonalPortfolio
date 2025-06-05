@@ -56,7 +56,7 @@ const PhotographyBody = () => {
               key={index}
               src={img}
               alt={`Image ${index + 1}`}
-              className="w-[27rem] max-h-[40rem] object-cover rounded-lg"
+              className="w-[27rem] max-h-[30rem] min-h-[20rem] object-cover rounded-lg"
             />
           ))}
       </div>

@@ -18,10 +18,15 @@ const HomeConnect = () => {
           <div className=" h-[3.5rem] bg-black-1 rounded-[2rem] font-judson font-semibold text-[30px] py-[5px] px-[30px] text-white ">
             malloryvfonte@gmail.com
           </div>
-          <ArrowButton text="Resume" link="/Mallory_Fonte_Resume.pdf" />
+          <ArrowButton
+            text="Resume"
+            link="/PersonalPortfolio/Mallory_Fonte_Resume.pdf"
+            newTab={true}
+          />
           <ArrowButton
             text="LinkedIn"
             link="https://www.linkedin.com/in/mallory-fonte-8662a0258/"
+            newTab={true}
           />
         </div>
       </div>

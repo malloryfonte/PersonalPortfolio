@@ -5,7 +5,7 @@ import GraphicDesignBody from "../components/GraphicDesign/GraphicDesignBody";
 
 const GraphicDesign = () => {
   return (
-    <div className=" w-screen min-h-screen flex-col">
+    <div className=" max-[]:w-screen min-h-screen flex-col">
       <div className="fixed top-0 z-10 hidden w-full md:block">
         <LargeNavigation />
       </div>
