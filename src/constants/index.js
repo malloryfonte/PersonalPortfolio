@@ -189,11 +189,15 @@ export const experience = [
     jobtitle: "",
     at: "",
     bulletPoints: [
-      "Best Short Form Video Award at the Purdue Gold Carpet Gala 2023, 2024",
+      "Best Short Form Video Award at the Purdue Gold Carpet Gala 2023, 2024, 2025",
       "Achievement in Social Media (personal) at the Purdue Gold Carpet Gala 2024",
       "Clinique on Campus Top Ambassador Fall 2024",
       "Outstanding Underclassman- Higher Ground Dance Company Spring 2024",
-      "Job ready scholarship summer 2025",
+      "Job-Ready Internship Award Summer 2025",
+      "Sparkling Ice Top Ambassador Spring 2025",
+      "Best Portfolio Website Gold Carpet Gala 2025",
+      "Honorable Mention Best PR Campaign Gold Carpet Gala 2025",
+      "Honorable Mention Best Personal Social Media Account Gold Carpet Gala 2025",
     ],
   },
 ];
@@ -298,6 +302,8 @@ export const photonav = [
       "/PersonalPortfolio//Photography/Products/NEWproducts6.jpg",
       "/PersonalPortfolio//Photography/Products/products3.jpg",
       "/PersonalPortfolio//Photography/Products/products4.jpg",
+      "/PersonalPortfolio//Photography/Products/NEWproduct7.jpg",
+      "/PersonalPortfolio//Photography/Products/NEWproduct8.jpg",
     ],
   },
   {

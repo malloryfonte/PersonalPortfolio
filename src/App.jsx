@@ -7,6 +7,8 @@ import Photography from "./pages/Photography";
 import ContentCreation from "./pages/ContentCreation";
 import CopyCampaigns from "./pages/CopyCampaigns";
 import BilliePage from "./components/CampaignCopy/BilliePage";
+import DateBookPage from "./components/CampaignCopy/DateBookPage";
+import DuolingoPage from "./components/CampaignCopy/DuolingoPage";
 
 const App = () => {
   return (
@@ -20,6 +22,8 @@ const App = () => {
         <Route path="/ContentCreation" element={<ContentCreation />} />
         <Route path="/CampaignsCopy" element={<CopyCampaigns />} />
         <Route path="/CampaignsCopy/BillieEilish" element={<BilliePage />} />
+        <Route path="/CampaignsCopy/Datebookstore" element={<DateBookPage />} />
+        <Route path="/CampaignsCopy/Duolingo" element={<DuolingoPage />} />
       </Routes>
     </Router>
   );

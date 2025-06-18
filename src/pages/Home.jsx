@@ -4,10 +4,12 @@ import SideLinks from "../components/SideLinks";
 import HomeIntro from "../components/HomeIntro/HomeIntro";
 import HomeAboutMe from "../components/HomeAboutMe/HomeAboutMe";
 import HomeConnect from "../components/HomeConnect/HomeConnect";
+import ScrollTop from "./ScrollTop";
 
 const Home = () => {
   return (
-    <div className=" w-screen min-h-screen flex-col font-perandory">
+    <div className=" maxw-screen min-h-screen flex-col font-perandory">
+      <ScrollTop />
       <div className="fixed top-0 z-10 hidden w-full md:block">
         <LargeNavigation />
       </div>

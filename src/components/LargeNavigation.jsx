@@ -16,13 +16,12 @@ const LargeNavigation = () => {
       </div>
       <div className="flex gap-10">
         {navigation.map((navItem) => {
+          const isActive = location.pathname.startsWith(navItem.url);
           return (
             <div
               key={navItem.id}
               className={`w-full h-full items-center flex text-lg justify-end whitespace-nowrap ${
-                location.pathname === navItem.url
-                  ? "text-cream-1"
-                  : "text-pink-2"
+                isActive ? "text-cream-1" : "text-pink-2"
               }`}
             >
               <Link to={navItem.url} className="hover:underline">
