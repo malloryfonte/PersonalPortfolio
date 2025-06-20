@@ -15,18 +15,15 @@ const CampaignsCopyBody = () => {
           link="/CampaignsCopy/BillieEilish"
           imageSrc="/PersonalPortfolio//Campaigns/Billie/Billie1.png"
           background="#FFCCF2"
+          buttontext="View Campaign"
         />
-        <CampaignBlock
-          title="Datebookstore Influencer Program"
-          link="/CampaignsCopy/Datebookstore"
-          imageSrc="/PersonalPortfolio//Campaigns/Datebooks/datebook.png"
-          background="#FFCCF2"
-        />
+
         <CampaignBlock
           title="Duolingo Analysis"
           link="/CampaignsCopy/Duolingo"
           imageSrc="/PersonalPortfolio//Campaigns/Duolingo/duo.jpg"
           background="#FFCCF2"
+          buttontext="View Paper"
         />
       </div>
     </div>
