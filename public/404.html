@@ -4,11 +4,13 @@
     <meta charset="UTF-8" />
     <title>Redirecting…</title>
     <script>
-      // Capture the current path (after /PersonalPortfolio)
-      var path = window.location.pathname.replace("/PersonalPortfolio", "");
+      // Capture the full path including the repo basename
+      var path = window.location.pathname; // e.g., /PersonalPortfolio/Experience
+
+      // Save it in sessionStorage so React Router can restore it
       sessionStorage.setItem("redirectPath", path);
 
-      // Redirect back to index so React Router can take over
+      // Redirect back to your repo root (index.html)
       window.location.replace("/PersonalPortfolio/");
     </script>
   </head>
