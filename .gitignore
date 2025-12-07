@@ -7,6 +7,13 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
+# Vite build output
+dist/
+.vite/
+vite.config.mts.timestamp-*
+.vite-inspect/
+
+
 node_modules
 dist
 dist-ssr
