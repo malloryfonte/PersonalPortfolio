@@ -4,17 +4,15 @@ export const navigation = [
     title: "Experience",
     url: "/Experience",
   },
-
+  {
+    id: "campaignscopy",
+    title: "Campaigns & Copy",
+    url: "/CampaignsCopy",
+  },
   {
     id: "contentcreation",
     title: "Content Creation",
     url: "/ContentCreation",
-  },
-
-  {
-    id: "photography",
-    title: "Photography",
-    url: "/Photography",
   },
   {
     id: "graphicdesign",
@@ -22,9 +20,9 @@ export const navigation = [
     url: "/GraphicDesign",
   },
   {
-    id: "campaignscopy",
-    title: "Campaigns & Copy",
-    url: "/CampaignsCopy",
+    id: "photography",
+    title: "Photography",
+    url: "/Photography",
   },
 ];
 
@@ -88,13 +86,29 @@ export const experience = [
     jobtitle: "Content Creation and Ambassadorships- Freelance 2022-Present",
     at: "@mallory.fonte",
     bulletPoints: [
-      "Developed marketing content including social media updates, blogs, and video campaigns to post on my personal page, supporting brands as an ambassador/influencer.",
-      "Brands represented include CeraVe, Clinique, American Eagle, Uber One, Amazon Student Prime, Cramify.ai, and BEARPAW.",
-      "Maintained an engagement rate between 13%-16% and reached over 4,000 accounts in the last 30 days.",
-      "Collaborated with marketing teams and brand partners to develop engaging social media campaigns and track performance.",
-      "Expanded skills in brand identity, event planning, campaign execution, digital marketing, PR, networking, idea-pitching, product marketing, photography, videography, visual branding, and content strategy.",
+      {
+        text: "Developed marketing content including social media updates, blogs, and video campaigns to post on my personal page, supporting brands as an ambassador/influencer.",
+        subPoints: [],
+      },
+      {
+        text: "Brands represented include CeraVe, Clinique, American Eagle, Uber One, Amazon Student Prime, Cramify.ai, and BEARPAW.",
+        subPoints: [],
+      },
+      {
+        text: "Maintained an engagement rate between 13%-16% and reached over 4,000 accounts in the last 30 days.",
+        subPoints: [],
+      },
+      {
+        text: "Collaborated with marketing teams and brand partners to develop engaging social media campaigns and track performance.",
+        subPoints: [],
+      },
+      {
+        text: "Expanded skills in brand identity, event planning, campaign execution, digital marketing, PR, networking, idea-pitching, product marketing, photography, videography, visual branding, and content strategy.",
+        subPoints: [],
+      },
     ],
   },
+
   {
     id: "1",
     sectiontitle: "Social Media Management",
@@ -102,26 +116,65 @@ export const experience = [
       "Marketing and Communications Intern - SDI Innovations 08/2023-01/2025",
     at: "@sdiinnovations",
     bulletPoints: [
-      "Created graphic designs for multiple social media platforms (Instagram, TikTok, Twitter, Facebook), pitch decks, and campaign reports.",
-      "Maintained an engagement rate of 4% or higher on social platforms, and assisted with community management/engagement, social listening, PR campaigns, influencer outreach, and media relations.",
-      "Strategized and developed campaigns with the Social Media Manager to promote brand awareness and company culture, as well as conducted trend and performance analysis.",
-      "Conducted market research and competitive analysis to inform campaign strategies.",
-      "Wrote caption copy, blogs, and email marketing, while also gaining skills in project management.",
-      "Created and produced a video series that achieved 3.1K+ pageviews and 2.6K visitors in a single month, while maintaining an average time-on-page of 2+ minutes.",
+      {
+        text: "Created graphic designs for multiple social media platforms (Instagram, TikTok, Twitter, Facebook), pitch decks, and campaign reports.",
+        subPoints: [],
+      },
+      {
+        text: "Maintained an engagement rate of 4% or higher on social platforms, and assisted with community management/engagement, social listening, PR campaigns, influencer outreach, and media relations.",
+        subPoints: [],
+      },
+      {
+        text: "Strategized and developed campaigns with the Social Media Manager to promote brand awareness and company culture, as well as conducted trend and performance analysis.",
+        subPoints: [],
+      },
+      {
+        text: "Conducted market research and competitive analysis to inform campaign strategies.",
+        subPoints: [],
+      },
+      {
+        text: "Wrote caption copy, blogs, and email marketing, while also gaining skills in project management.",
+        subPoints: [],
+      },
+      {
+        text: "Created and produced a video series that achieved 3.1K+ pageviews and 2.6K visitors in a single month, while maintaining an average time-on-page of 2+ minutes.",
+        subPoints: [],
+      },
     ],
   },
+
   {
     id: "2",
     sectiontitle: "Content Creation",
     jobtitle:
-      "Vlogger and Content Creator - Boiler Ambassadors 08/2024-Present",
+      "Creative Lead and Content Creator - Boiler Ambassadors 08/2024-Present",
     at: "@boilerambassadors and @lifeatpurdue",
     bulletPoints: [
-      "Serve as a Boiler Ambassador at Purdue University, developing engaging digital content to connect with prospective and current students while promoting university life and campus culture.",
-      "Produce high-quality video and photo content for Instagram and YouTube, showcasing student experiences, campus events, and academic opportunities to enhance Purdue’s online presence.",
-      "Achieved a reach of over 200,000 users, leveraging strategic content creation and platform engagement to increase visibility and interaction with Purdue’s digital audience.",
+      {
+        text: "Serve as a Boiler Ambassador at Purdue University, developing engaging digital content to connect with prospective and current students while promoting university life and campus culture.",
+        subPoints: [],
+      },
+      {
+        text: "In my role as a Content Creator, I produce high-quality video and photo content for Instagram and YouTube, showcasing student experiences, campus events, and academic opportunities to enhance Purdue’s online presence.",
+        subPoints: [
+          {
+            text: "Achieved a reach of over 200,000 users, leveraging strategic content creation and platform engagement to increase visibility and interaction with Purdue’s digital audience.",
+            subPoints: [],
+          },
+        ],
+      },
+      {
+        text: "In my role as a Creative Lead, I oversee the vision and execution of photo shoots for Purdue Team Store, from developing creative briefs and styling talent to coordinating with photographers and ensuring everything runs smoothly on set.",
+        subPoints: [
+          {
+            text: "I also help tell the Purdue story by aligning visuals with campaign goals and keeping our creative direction cohesive",
+            subPoints: [],
+          },
+        ],
+      },
     ],
   },
+
   {
     id: "3",
     sectiontitle: "Content Creation",
@@ -129,36 +182,25 @@ export const experience = [
       "Senior Brand Ambassador and Influencer - American Eagle 10/2020-01/2024",
     at: "@mallory.fonte and featured on @americaneagle",
     bulletPoints: [
-      "Produced high-quality photo and video content for the brand, showcasing products on my personal platform to drive engagement.",
-      "Interpreted and applied campaign briefs and style guides to ensure brand consistency.",
-      "Conducted personalized one-on-one styling appointments, enhancing the customer experience and boosting sales.",
-      "Developed strong skills in customer service, sales, teamwork, conflict resolution, and brand representation.",
+      {
+        text: "Produced high-quality photo and video content for the brand, showcasing products on my personal platform to drive engagement.",
+        subPoints: [],
+      },
+      {
+        text: "Interpreted and applied campaign briefs and style guides to ensure brand consistency.",
+        subPoints: [],
+      },
+      {
+        text: "Conducted personalized one-on-one styling appointments, enhancing the customer experience and boosting sales.",
+        subPoints: [],
+      },
+      {
+        text: "Developed strong skills in customer service, sales, teamwork, conflict resolution, and brand representation.",
+        subPoints: [],
+      },
     ],
   },
-  {
-    id: "4",
-    sectiontitle: "Professional Development",
-    jobtitle:
-      "STEM Education Works- Professional Development and Curriculum Intern 01/2025-05/2025",
-    at: "",
-    bulletPoints: [
-      "Review, edit, and refine K-5 STEM curriculum lesson plans to enhance clarity, engagement, and educational effectiveness.",
-      "Train and support clients in implementing STEM technology, developing comprehensive user guides to ensure seamless integration.",
-      "Create visually compelling marketing materials, slideshows, and event signage to enhance brand presence and engagement.",
-      "Develop and coordinate community programs centered on STEM topics, fostering education and outreach initiatives.",
-    ],
-  },
-  {
-    id: "5",
-    sectiontitle: "Professional Development",
-    jobtitle: "Thundrr- Intern 06/2023-08/2023",
-    at: "",
-    bulletPoints: [
-      "Coached and guided content creators on social media strategy to drive growth and audience retention.",
-      "Partnered with stakeholders to develop webinar content that aligned with organizational messaging.",
-      "Coordinated outreach efforts to strengthen brand relationships and build industry connections.",
-    ],
-  },
+
   {
     id: "6",
     sectiontitle: "Leadership",
@@ -166,38 +208,76 @@ export const experience = [
       "Purdue Student Government- Executive Director of Communications and Deputy Chief of Staff",
     at: "",
     bulletPoints: [
-      "I led university-wide communications strategies, managed multi-platform content, and oversaw a team dedicated to student outreach and engagement.",
-      "I collaborated closely with campus partners to promote PSG initiatives, crafted messaging for key events and policies, and supported internal operations to ensure smooth coordination across branches.",
-      "These roles strengthened my leadership, strategic planning, and crisis communication skills, while deepening my understanding of how to effectively represent and advocate for a large, diverse student body.      ",
+      {
+        text: "Led university-wide communications strategies, managed multi-platform content, and oversaw a team dedicated to student outreach and engagement.",
+        subPoints: [],
+      },
+      {
+        text: "Collaborated closely with campus partners to promote PSG initiatives, crafted messaging for key events and policies, and supported internal operations to ensure smooth coordination across branches.",
+        subPoints: [],
+      },
+      {
+        text: "Strengthened leadership, strategic planning, and crisis communication skills while gaining experience representing and advocating for a large, diverse student body.",
+        subPoints: [],
+      },
     ],
   },
+
   {
     id: "7",
     sectiontitle: "Leadership",
     jobtitle: "Higher Ground Dance Company- Choreographer",
     at: "",
     bulletPoints: [
-      "I created original pieces that emphasized storytelling, musicality, and emotional connection across various dance styles.",
-      "Beyond choreography, I focused heavily on teaching—leading rehearsals with an emphasis on clarity, patience, and adaptability.",
-      "I tailored instruction to meet the needs of different learning styles, using a mix of visual, verbal, and kinesthetic methods to ensure every dancer felt confident and supported.",
-      "This role deepened my skills in creative leadership, collaborative direction, and inclusive teaching, all while fostering a positive and expressive rehearsal environment.",
+      {
+        text: "Created original pieces that emphasized storytelling, musicality, and emotional connection across various dance styles.",
+        subPoints: [],
+      },
+      {
+        text: "Led rehearsals focused on clarity, patience, and adaptability while teaching dancers of diverse learning styles.",
+        subPoints: [],
+      },
+      {
+        text: "Tailored instruction using visual, verbal, and kinesthetic methods to ensure every dancer felt confident and supported.",
+        subPoints: [],
+      },
+      {
+        text: "Developed skills in creative leadership, collaborative direction, and inclusive teaching while fostering a positive rehearsal environment.",
+        subPoints: [],
+      },
     ],
   },
+
   {
     id: "8",
     sectiontitle: "Awards",
     jobtitle: "",
     at: "",
     bulletPoints: [
-      "Best Short Form Video Award at the Purdue Gold Carpet Gala 2023, 2024, 2025",
-      "Achievement in Social Media (personal) at the Purdue Gold Carpet Gala 2024",
-      "Clinique on Campus Top Ambassador Fall 2024",
-      "Outstanding Underclassman- Higher Ground Dance Company Spring 2024",
-      "Job-Ready Internship Award Summer 2025",
-      "Sparkling Ice Top Ambassador Spring 2025",
-      "Best Portfolio Website Gold Carpet Gala 2025",
-      "Honorable Mention Best PR Campaign Gold Carpet Gala 2025",
-      "Honorable Mention Best Personal Social Media Account Gold Carpet Gala 2025",
+      {
+        text: "Best Short Form Video Award at the Purdue Gold Carpet Gala 2023, 2024, 2025",
+        subPoints: [],
+      },
+      {
+        text: "Achievement in Social Media (personal) at the Purdue Gold Carpet Gala 2024",
+        subPoints: [],
+      },
+      { text: "Clinique on Campus Top Ambassador Fall 2024", subPoints: [] },
+      {
+        text: "Outstanding Underclassman- Higher Ground Dance Company Spring 2024",
+        subPoints: [],
+      },
+      { text: "Job-Ready Internship Award Summer 2025", subPoints: [] },
+      { text: "Sparkling Ice Top Ambassador Spring 2025", subPoints: [] },
+      { text: "Best Portfolio Website Gold Carpet Gala 2025", subPoints: [] },
+      {
+        text: "Honorable Mention Best PR Campaign Gold Carpet Gala 2025",
+        subPoints: [],
+      },
+      {
+        text: "Honorable Mention Best Personal Social Media Account Gold Carpet Gala 2025",
+        subPoints: [],
+      },
     ],
   },
 ];
@@ -227,13 +307,9 @@ export const Billie = [
 export const photonav = [
   {
     id: "0",
-    title: "Portraits",
-    url: "#Portraits",
+    title: "Graduates",
+    url: "#Graduates",
     images: [
-      "/PersonalPortfolio//Photography/Portraits/CC1.jpg",
-      "/PersonalPortfolio//Photography/Portraits/CC2.jpg",
-      "/PersonalPortfolio//Photography/Portraits/CC3.jpg",
-      "/PersonalPortfolio//Photography/Portraits/CC4.jpg",
       "/PersonalPortfolio//Photography/Portraits/Grad1.JPG",
       "/PersonalPortfolio//Photography/Portraits/Grad2.JPG",
       "/PersonalPortfolio//Photography/Portraits/Grad3.JPG",
@@ -258,17 +334,8 @@ export const photonav = [
       "/PersonalPortfolio//Photography/Portraits/Grad22.JPG",
       "/PersonalPortfolio//Photography/Portraits/Grad23.JPG",
       "/PersonalPortfolio//Photography/Portraits/Grad24.JPG",
-      "/PersonalPortfolio//Photography/Portraits/Photog1.JPG",
-      "/PersonalPortfolio//Photography/Portraits/Photog3.jpg",
-      "/PersonalPortfolio//Photography/Portraits/photog5.png",
-      "/PersonalPortfolio//Photography/Portraits/photog6.png",
-      "/PersonalPortfolio//Photography/Portraits/photog7.png",
-      "/PersonalPortfolio//Photography/Portraits/photog8.png",
-      "/PersonalPortfolio//Photography/Portraits/portrait1.jpg",
       "/PersonalPortfolio//Photography/Portraits/portrait4.JPG",
       "/PersonalPortfolio//Photography/Portraits/portrait5.JPG",
-      "/PersonalPortfolio//Photography/Portraits/portrait8.jpg",
-      "/PersonalPortfolio//Photography/Portraits/portrait9.jpg",
     ],
   },
   {
@@ -280,7 +347,6 @@ export const photonav = [
       "/PersonalPortfolio//Photography/Concerts/conan2.jpg",
       "/PersonalPortfolio//Photography/Concerts/conan3.jpg",
       "/PersonalPortfolio//Photography/Concerts/maddison1.jpg",
-
       "/PersonalPortfolio//Photography/Concerts/maddison3.JPG",
       "/PersonalPortfolio//Photography/Concerts/top1.jpg",
       "/PersonalPortfolio//Photography/Concerts/top2.JPG",
@@ -295,27 +361,22 @@ export const photonav = [
   },
   {
     id: "2",
-    title: "Products",
-    url: "#Products",
+    title: "Portraits",
+    url: "#Portraits",
     images: [
-      "/PersonalPortfolio//Photography/Products/products1.JPG",
-      "/PersonalPortfolio//Photography/Products/NEWproducts6.jpg",
-      "/PersonalPortfolio//Photography/Products/products3.jpg",
-      "/PersonalPortfolio//Photography/Products/products4.jpg",
-      "/PersonalPortfolio//Photography/Products/NEWproduct7.jpg",
-      "/PersonalPortfolio//Photography/Products/NEWproduct8.jpg",
-    ],
-  },
-  {
-    id: "3",
-    title: "Nature",
-    url: "#Nature",
-    images: [
-      "/PersonalPortfolio//Photography/Nature/nature1.jpg",
-      "/PersonalPortfolio//Photography/Nature/nature2.jpg",
-      "/PersonalPortfolio//Photography/Nature/nature3.JPG",
-      "/PersonalPortfolio//Photography/Nature/nature4.jpg",
-      "/PersonalPortfolio//Photography/Nature/nature5.JPG",
+      "/PersonalPortfolio//Photography/Portraits/CC1.jpg",
+      "/PersonalPortfolio//Photography/Portraits/CC2.jpg",
+      "/PersonalPortfolio//Photography/Portraits/CC3.jpg",
+      "/PersonalPortfolio//Photography/Portraits/CC4.jpg",
+      "/PersonalPortfolio//Photography/Portraits/Photog1.JPG",
+      "/PersonalPortfolio//Photography/Portraits/Photog3.jpg",
+      "/PersonalPortfolio//Photography/Portraits/photog5.png",
+      "/PersonalPortfolio//Photography/Portraits/photog6.png",
+      "/PersonalPortfolio//Photography/Portraits/photog7.png",
+      "/PersonalPortfolio//Photography/Portraits/photog8.png",
+      "/PersonalPortfolio//Photography/Portraits/portrait1.jpg",
+      "/PersonalPortfolio//Photography/Portraits/portrait8.jpg",
+      "/PersonalPortfolio//Photography/Portraits/portrait9.jpg",
     ],
   },
 ];

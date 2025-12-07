@@ -4,6 +4,7 @@ import { useState } from "react";
 import ArrowButton from "../HomeConnect/ArrowButton";
 import { graphicnav } from "../../constants";
 import ToolTag from "./ToolTag";
+import BulletList from "./BulletList";
 
 const ExperienceBody = () => {
   const [activeSection, setActiveSection] = useState(experience[0].id);
@@ -35,15 +36,20 @@ const ExperienceBody = () => {
         </div>
 
         {/* Center Title */}
-        <div className="flex flex-col items-center col-span-4    h-full mt-[-.5rem]">
-          <p className="text-[8rem] font-perandory text-black-1 text-center leading-tight">
+        <div className="flex flex-col items-center col-span-4  h-full mt-[-.5rem]">
+          <span className="text-[8rem] font-perandory text-black-1 text-center leading-none">
             Digital Literacy
-          </p>
+          </span>
+
           <ArrowButton
             text="Resume"
             link="/PersonalPortfolio/Mallory_Fonte_Resume.pdf"
             newTab={true}
           />
+          <span className="flex text-center text-[1rem] pt-10">
+            Here is an in-depth list of my work history. See resume for a
+            concise version of my most recent experience.
+          </span>
         </div>
 
         {/* Right Column */}
@@ -82,11 +88,7 @@ const ExperienceBody = () => {
 
               {/* Bullet Points */}
               <div className="space-y-3 mt-10">
-                <ul className="list-disc list-inside text-[1.5rem] font-judson text-black-1">
-                  {expItem.bulletPoints.map((point, index) => (
-                    <li key={index}>{point}</li>
-                  ))}
-                </ul>
+                <BulletList items={expItem.bulletPoints} />
               </div>
             </div>
           ))}

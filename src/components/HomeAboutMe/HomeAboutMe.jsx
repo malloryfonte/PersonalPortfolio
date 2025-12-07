@@ -14,26 +14,26 @@ const HomeAboutMe = () => {
           </div>
           <div className="w-full h-1/2 flex items-start justify-start pt-10">
             <p className="font-judson text-cream-1 text-[1rem]">
-              Hi! I’m Mallory — a senior at Purdue University studying
+              Hi! I’m Mallory, a senior at Purdue University studying
               Communications with concentrations in Public Relations and Mass
               Media, and minoring in General Communications. I’m graduating in
               May 2026 and continuing my academic journey with a Master of
               Science in Communications, which I’ll complete remotely by May
-              2027. This summer, I’m excited to be interning at Circle City
-              Athletics as a Marketing & Social Media Intern, while also working
-              as a Content Creator and Personal Assistant for Katherine Scheele
-              Photography. In Fall 2025, I’ll be returning to SDI Innovations as
-              a Marketing Intern, after previously working there from August
-              2023 to May 2025. On campus, I’m actively involved with Boiler
-              Ambassadors and Higher Ground Dance Company, where I get to blend
-              my love for community, performance, and creativity. Post-grad, my
-              dream is to work in industries I’m passionate about — especially
-              beauty, music, fashion, food, or sports — helping brands tell
-              authentic stories through strategic marketing and PR. Outside of
-              school and work, you’ll usually find me at concerts, behind a
-              camera, or spending time with my sisters and friends. My long-term
-              goals? Build a meaningful career I love, stay creative — and one
-              day, adopt a corgi.
+              2027. Currently, I’m excited to be interning with Her Campus Media
+              as a Community and Influencer Marketing Intern, while also working
+              as a Marketing Intern for SDI Innovations, where I’ve been working
+              since August 2023. Additionally, I am entering my second year as a
+              Vlogger for Boiler Ambassadors, while also taking on a new role as
+              Creative Lead. On campus, I’m actively involved with Purdue
+              Student Government and Higher Ground Dance Company, where I get to
+              blend my love for community, performance, and creativity.
+              Post-grad, my dream is to work in industries I’m passionate about,
+              especially beauty, music, fashion, entertainment, or sports,
+              helping brands tell authentic stories through strategic marketing
+              and PR. Outside of school and work, you’ll usually find me at
+              concerts, behind a camera, or spending time with my sisters and
+              friends. My long-term goals? Build a meaningful career I love,
+              stay creative, and one day, adopt a corgi!
             </p>
           </div>
         </div>
