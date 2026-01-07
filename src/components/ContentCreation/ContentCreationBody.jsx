@@ -1,16 +1,26 @@
 import React, { useState } from "react";
-import { contentcreationreels, longformcontent } from "../../constants";
+import {
+  BoilerAmbassadorReels,
+  CliniqueReels,
+  DoveReels,
+  SparklingIceReels,
+  UnionReels,
+} from "../../constants";
+import ContentCreationBlock from "./ContentCreationBlock";
 
 const ContentCreationBody = () => {
   const [fade, setFade] = useState(true);
 
   return (
-    <div className="w-[1024px] flex flex-col items-center bg-black-1">
-      <div className="text-[12rem] font-perandory pt-20 text-cream-1 flex flex-col items-center justify-center">
-        <p className="m-0">Content Creation</p>
-        <div className="w-full items-center justify-center flex px-7 overflow-hidden space-x-10">
-          <p className="text-[12rem] font-perandory text-cream-1">Reels</p>
-          <p className="text-[1.2rem] text-center font-judson ">
+    <div className="w-[1024px] flex flex-col items-center py-8 space-y-20">
+      <div className=" font-perandory pt-20 w-full flex flex-col items-center justify-center space-y-8">
+        <div className=" w-full flex items-center justify-center bg-pink-1 rounded-md">
+          <span className="m-0 text-white px-8 relative top-[15px] text-[10rem]">
+            Content Creation
+          </span>
+        </div>
+        <div className="w-full items-center justify-center flex flex-col gap-10 overflow-hidden">
+          <span className="text-[1.5rem] text-center font-judson text-blue-dark">
             My portfolio showcases a diverse range of work that reflects both my
             creativity and versatility as a content creator. It includes
             sponsored posts developed for my personal social media platforms,
@@ -20,65 +30,70 @@ const ContentCreationBody = () => {
             thoughtfully written blog posts and multi-platform promotional
             strategies, my work highlights a strong understanding of brand
             voice, audience engagement, and storytelling.
-          </p>
+          </span>
+
+          <img
+            src="/PersonalPortfolio/ContentCreation/LogosGraphic.png"
+            className="w-full object-cover scale-125 "
+          />
         </div>
       </div>
 
-      <div
-        className={`w-full h-full flex items-center justify-center flex-wrap gap-4 py-10 transition-opacity duration-1000 ease-in-out ${
-          fade ? "opacity-100" : "opacity-0"
-        }`}
-      >
-        {contentcreationreels.map((item) => (
-          <a
-            key={item.id}
-            href={item.url}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="transition-transform duration-300 hover:scale-105"
-          >
-            <img
-              src={item.image}
-              alt={`Content ${item.id}`}
-              className="w-[20rem] max-h-[30rem] object-fill rounded-lg"
-            />
-          </a>
-        ))}
-      </div>
-      <div className="w-full flex flex-col items-center justify-center pt-20 text-cream-1">
-        <div className="w-full flex flex-col md:flex-row items-center justify-center px-7 gap-6">
-          <p className="text-[8.5rem] font-perandory whitespace-nowrap pt-8">
-            Long-Form Video
-          </p>
-          <p className="text-[1rem] md:text-[1.2rem] font-judson max-w-4xl text-left">
-            This section features a mix of passion projects and client work, all
-            focused on long-form video content. From storytelling-driven pieces
-            to branded campaigns, each project reflects my creative direction
-            and production skills.
-          </p>
-        </div>
-      </div>
-      <div
-        className={`w-full h-full flex items-center justify-center flex-wrap gap-4 py-10 transition-opacity duration-1000 ease-in-out ${
-          fade ? "opacity-100" : "opacity-0"
-        }`}
-      >
-        {longformcontent.map((item) => (
-          <a
-            key={item.id}
-            href={item.url}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="transition-transform duration-300 hover:scale-105"
-          >
-            <img
-              src={item.image}
-              alt={`Content ${item.id}`}
-              className="w-[30rem] h-[20rem] object-cover rounded-lg"
-            />
-          </a>
-        ))}
-      </div>
+      <ContentCreationBlock
+        reels={SparklingIceReels}
+        title={"Sparkling Ice"}
+        description={[
+          `Selected as the Top Ambassador for Sparkling Ice Squad Spring 2025 — meaning I completed the full scope of work promptly, created high-quality content with minimal edits, attended kick-off calls, overcommunicated on questions and concerns regarding deliverables and timelines, and met and exceeded creativity and engagement expectations for activities.`,
+          `Collaborated closely with the Sparkling Ice marketing team, actively participating in content creation, reviewing materials, and executed successful sampling initiatives.`,
+        ]}
+      />
+      <ContentCreationBlock
+        reels={CliniqueReels}
+        title={"Clinique On Campus"}
+        description={[
+          `Selected as the Top Ambassador for Clinique on Campus Spring 2024`,
+          `Cultivated and nurtured a long-term relationship with the brand, ensuring strong ties were maintained over three months`,
+          `Collaborated closely with the Clinique and Her Campus marketing team, actively participating in content creation, reviewing materials, and executing successful sampling initiatives`,
+          "Demonstrated exceptional organizational skills by consistently meeting campaign and content deadlines",
+        ]}
+        reverse
+      />
+      <ContentCreationBlock
+        reels={DoveReels}
+        title={"Partnership With Dove"}
+        description={[
+          `Collaborated closely with the Dove marketing team, actively participating in content creation, reviewing materials, and incorporating real-time edits to align with brand guidelines based on direct feedback from the brand`,
+          `Produced compelling video content to promote the Dove Volume & Fullness Dry Shampoo at Target, effectively fostering brand affinity`,
+          `Demonstrated exceptional organizational skills by consistently meeting campaign and content deadlines while effectively managing tasks and maintaining a structured workflow`,
+          "Reached 77k+ users, garnering 88k+ views",
+        ]}
+      />
+      <ContentCreationBlock
+        reels={UnionReels}
+        title={"Partnership With Dove"}
+        description={[
+          `For a class competition, we did a collaboration video with the Union Club Hotel at Purdue`,
+          `One student was chosen to move on with a sponsored partnership with the brand, and I ended up being awarded that sponsorship`,
+          `The sponsored partnership video reached 2.4k+ users, and 68.8% of views came from non-followers`,
+          "Collaborated closely with the UCH marketing and social media team",
+          `Submersed myself in the Union Club Hotel‘s brand voice and branding guidelines to positively represent the brand from my own perspective`,
+        ]}
+        reverse
+      />
+      <ContentCreationBlock
+        reels={BoilerAmbassadorReels}
+        title={"Boiler ambassadors"}
+        description={[
+          `Serve as a Boiler Ambassador at Purdue University, developing engaging digital content to connect with prospective and current students while promoting university life and campus culture.`,
+          `Produce high-quality video and photo content for Instagram and YouTube, showcasing student experiences, campus events, and academic opportunities to enhance Purdue’s online presence.`,
+          `Achieved a reach of over 200,000 users, leveraging strategic content creation and platform engagement to increase visibility and interaction with Purdue’s digital audience.`,
+        ]}
+        specificImage={{
+          url: "https://youtu.be/h2SyZOJQ6x4?si=ZJQRh_PVYbcQdbud",
+          image:
+            "/PersonalPortfolio//ContentCreation/BoilerAmbassador/laptopBA.png",
+        }}
+      />
     </div>
   );
 };

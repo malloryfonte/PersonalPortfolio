@@ -3,6 +3,7 @@ import LargeNavigation from "../components/LargeNavigation";
 import SideLinks from "../components/SideLinks";
 import ContentCreationBody from "../components/ContentCreation/ContentCreationBody";
 import ScrollTop from "./ScrollTop";
+import UpArrow from "../components/UpArrow";
 
 const ContentCreation = () => {
   return (
@@ -14,9 +15,10 @@ const ContentCreation = () => {
 
       <SideLinks />
 
-      <div className=" w-full bg-black-1 items-center flex justify-center">
+      <div className=" w-full bg-blue-light items-center flex justify-center">
         <ContentCreationBody />
       </div>
+      <UpArrow />
     </div>
   );
 };

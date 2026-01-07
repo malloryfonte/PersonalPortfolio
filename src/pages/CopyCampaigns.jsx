@@ -6,7 +6,7 @@ import ScrollTop from "./ScrollTop";
 
 const CopyCampaigns = () => {
   return (
-    <div className=" max-w-screen min-h-screen bg-cream-1 flex flex-col ">
+    <div className=" max-w-screen min-h-screen bg-blue-light flex flex-col ">
       <ScrollTop />
       <div className="fixed top-0 z-10 hidden w-full md:block">
         <LargeNavigation />
@@ -14,7 +14,7 @@ const CopyCampaigns = () => {
 
       <SideLinks />
 
-      <div className=" w-full bg-cream-1 items-center flex justify-center ">
+      <div className=" w-full items-center flex justify-center ">
         <CampaignsCopyBody />
       </div>
     </div>

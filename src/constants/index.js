@@ -14,11 +14,11 @@ export const navigation = [
     title: "Content Creation",
     url: "/ContentCreation",
   },
-  {
-    id: "graphicdesign",
-    title: "Graphic Design",
-    url: "/GraphicDesign",
-  },
+  // {
+  //   id: "graphicdesign",
+  //   title: "Graphic Design",
+  //   url: "/GraphicDesign",
+  // },
   {
     id: "photography",
     title: "Photography",
@@ -389,7 +389,6 @@ export const graphicnav = [
       "/PersonalPortfolio//GraphicDesign/SDI/GD1.png",
       "/PersonalPortfolio//GraphicDesign/SDI/GD2.png",
       "/PersonalPortfolio//GraphicDesign/SDI/GD3.png",
-
       "/PersonalPortfolio//GraphicDesign/SDI/GD5.png",
       "/PersonalPortfolio//GraphicDesign/SDI/GD6.png",
       "/PersonalPortfolio//GraphicDesign/SDI/GD7.png",
@@ -407,73 +406,60 @@ export const graphicnav = [
   },
 ];
 
-export const contentcreationreels = [
+export const SparklingIceReels = [
   {
     id: "0",
-    image: "/PersonalPortfolio//ContentCreation/ContentCreation1.png",
-    url: "https://www.instagram.com/reel/DCPw43cveEo/?igsh=MTR3bHY5aDBtdHNvcQ==",
+    image: "/PersonalPortfolio//ContentCreation/SparklingIce/SparklingIce2.png",
+    url: "https://www.instagram.com/reel/DIl14XAM-QE/?utm_source=ig_web_button_share_sheet&igsh=MzRlODBiNWFlZA==",
   },
   {
     id: "1",
-    image: "/PersonalPortfolio//ContentCreation/ContentCreation2.png",
-    url: "https://www.instagram.com/reel/DCFQ-DjPTSN/?igsh=MW5zcHZxZDR3MG5pbw==",
+    image: "/PersonalPortfolio//ContentCreation/SparklingIce/SparklingIce3.png",
+    url: "https://www.instagram.com/reel/DJuUTV3vjNz/?utm_source=ig_web_button_share_sheet&igsh=MzRlODBiNWFlZA==",
   },
   {
     id: "2",
-    image: "/PersonalPortfolio//ContentCreation/ContentCreation3.png",
-    url: "https://www.instagram.com/reel/DAbhsRiPEjJ/?igsh=MWJpZ3k5cmI2cHJxZw==",
-  },
-  {
-    id: "3",
-    image: "/PersonalPortfolio//ContentCreation/ContentCreation4.png",
-    url: "https://www.instagram.com/reel/C-NrccQuwZ4/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
-  },
-  {
-    id: "4",
-    image: "/PersonalPortfolio//ContentCreation/ContentCreation5.png",
-    url: "https://www.instagram.com/reel/C_8XwaJvQdV/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
-  },
-  {
-    id: "5",
-    image: "/PersonalPortfolio//ContentCreation/ContentCreation6.png",
-    url: "https://www.instagram.com/reel/DGlW7-duS9b/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
-  },
-  {
-    id: "6",
-    image: "/PersonalPortfolio//ContentCreation/ContentCreation7.png",
-    url: "https://www.instagram.com/reel/DChn0p9S1Gt/?igsh=MXBia2tnbmgydjdhbA==",
-  },
-  {
-    id: "7",
-    image: "/PersonalPortfolio//ContentCreation/ContentCreation8.png",
-    url: "https://www.instagram.com/p/Cs9SP-mxjtS/?igsh=dXpxeXhwNXozM2Jk",
-  },
-  {
-    id: "8",
-    image: "/PersonalPortfolio//ContentCreation/ContentCreation9.png",
-    url: "https://www.instagram.com/reel/DCUo-l1pvbi/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
-  },
-  {
-    id: "9",
-    image: "/PersonalPortfolio//ContentCreation/ContentCreation10.png",
-    url: "https://www.instagram.com/reel/C66mdn8ufa6/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
-  },
-  {
-    id: "10",
-    image: "/PersonalPortfolio//ContentCreation/ContentCreation11.png",
-    url: "https://www.instagram.com/reel/C7PGvijuIdJ/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+    image: "/PersonalPortfolio//ContentCreation/SparklingIce/SparklingIce1.png",
+    url: "https://www.instagram.com/reel/DI38gn_uM5A/?utm_source=ig_web_button_share_sheet&igsh=MzRlODBiNWFlZA==",
   },
 ];
-
-export const longformcontent = [
+export const CliniqueReels = [
   {
     id: "0",
-    image: "/PersonalPortfolio//ContentCreation/Long-form1.png",
-    url: "https://youtu.be/5Yy5siNdwQE",
+    image: "/PersonalPortfolio//ContentCreation/Clinique/clinique 1.png",
+    url: "https://www.instagram.com/reel/DBhBBYvP224/?utm_source=ig_web_button_share_sheet&igsh=MzRlODBiNWFlZA==",
   },
   {
     id: "1",
-    image: "/PersonalPortfolio//ContentCreation/Long-form2.png",
-    url: "https://youtu.be/lWtqO1HDk94",
+    image: "/PersonalPortfolio//ContentCreation/Clinique/clinique 2.png",
+    url: "https://www.instagram.com/reel/DCFQ-DjPTSN/?utm_source=ig_web_button_share_sheet&igsh=MzRlODBiNWFlZA==",
+  },
+];
+export const DoveReels = [
+  {
+    id: "0",
+    image: "/PersonalPortfolio//ContentCreation/Dove/dove.png",
+    url: "https://www.instagram.com/reel/DAbhsRiPEjJ/?utm_source=ig_web_button_share_sheet&igsh=MzRlODBiNWFlZA==",
+  },
+];
+
+export const UnionReels = [
+  {
+    id: "0",
+    image: "/PersonalPortfolio//ContentCreation/Union/union1.png",
+    url: "https://www.instagram.com/reel/DCPw43cveEo/?utm_source=ig_web_button_share_sheet&igsh=MzRlODBiNWFlZA==",
+  },
+  {
+    id: "1",
+    image: "/PersonalPortfolio//ContentCreation/Union/union2.png",
+    url: "https://www.instagram.com/reel/DGJXmwdvUO9/?utm_source=ig_web_button_share_sheet&igsh=MzRlODBiNWFlZA==",
+  },
+];
+
+export const BoilerAmbassadorReels = [
+  {
+    id: "0",
+    image: "/PersonalPortfolio//ContentCreation/BoilerAmbassador/BA1.png",
+    url: "https://www.instagram.com/reel/DChn0p9S1Gt/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA== ",
   },
 ];

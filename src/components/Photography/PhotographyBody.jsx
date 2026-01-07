@@ -18,8 +18,8 @@ const PhotographyBody = () => {
   };
 
   return (
-    <div className="w-[1024px] flex flex-col items-center bg-cream-1 ">
-      <div className="text-[12rem] font-perandory pt-20">
+    <div className="w-[1024px] flex flex-col items-center  ">
+      <div className="text-[12rem] font-perandory pt-20 text-blue-light">
         <p>Photography</p>
       </div>
       <div className="flex rounded-lg w-[55rem] h-[50px] overflow-hidden mt-[-3rem]">
@@ -29,8 +29,8 @@ const PhotographyBody = () => {
             key={item.id}
           >
             <button
-              className={`flex items-center justify-center w-full bg-black-1 h-full transition-all text-opacity-80 hover:bg-opacity-90  ease-in-out duration-300 ${
-                activeSection === item.id ? "text-pink-1" : "text-cream-1"
+              className={`flex items-center justify-center w-full bg-blue-light h-full transition-all text-opacity-80 hover:bg-opacity-90  ease-in-out duration-300 ${
+                activeSection === item.id ? "text-pink-1" : "text-blue-dark"
               }`}
               onClick={() => handleButtonClick(item.id)}
             >

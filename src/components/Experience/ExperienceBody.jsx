@@ -22,7 +22,7 @@ const ExperienceBody = () => {
 
   return (
     <div className="w-[1024px] flex flex-col items-center pb-[6rem]">
-      <div className="text-[12rem] font-perandory pt-20 text-black-1 ">
+      <div className="text-[12rem] font-perandory pt-20 text-blue-dark ">
         <p className="m-0">Experience</p>
       </div>
       <div className="w-full mt-[-3rem] rounded-sm grid grid-cols-1 md:grid-cols-6">
@@ -37,7 +37,7 @@ const ExperienceBody = () => {
 
         {/* Center Title */}
         <div className="flex flex-col items-center col-span-4  h-full mt-[-.5rem]">
-          <span className="text-[8rem] font-perandory text-black-1 text-center leading-none">
+          <span className="text-[8rem] font-perandory text-blue-dark text-center leading-none">
             Digital Literacy
           </span>
 
@@ -45,6 +45,7 @@ const ExperienceBody = () => {
             text="Resume"
             link="/PersonalPortfolio/Mallory_Fonte_Resume.pdf"
             newTab={true}
+            background="#40476d"
           />
           <span className="flex text-center text-[1rem] pt-10">
             Here is an in-depth list of my work history. See resume for a
@@ -65,7 +66,7 @@ const ExperienceBody = () => {
       {Object.keys(groupedExperience).map((sectionTitle) => (
         <div key={sectionTitle} className="w-full">
           {/* Section Title */}
-          <div className="text-[8rem] font-perandory text-cream-1 flex items-center justify-center bg-pink-2 h-[10rem] mt-[2rem] rounded-sm">
+          <div className="text-[8rem] font-perandory text-blue-light flex items-center justify-center bg-blue-dark h-[10rem] mt-[2rem] rounded-sm">
             <p className="m-0 mt-[2rem]">{sectionTitle}</p>
           </div>
 
@@ -73,14 +74,14 @@ const ExperienceBody = () => {
           {groupedExperience[sectionTitle].map((expItem) => (
             <div key={expItem.id} className="">
               {/* Job Title */}
-              <div className="text-[2rem] font-judson text-black-1 flex items-center justify-start border-pink-2 border-b-4 pt-[3rem]">
+              <div className="text-[2rem] font-judson text-blue-dark flex items-center justify-start border-blue-dark border-b-4 pt-[3rem]">
                 <p>{expItem.jobtitle}</p>
               </div>
 
               {/* At (Social Media Handle) */}
               {expItem.at && (
                 <div>
-                  <p className="text-[2rem] font-judson text-black-1 flex">
+                  <p className="text-[2rem] font-judson text-blue-dark flex">
                     Instagram account affiliated: {expItem.at}
                   </p>
                 </div>

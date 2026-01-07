@@ -9,7 +9,7 @@ import BackArrow from "../BackArrow";
 
 const BilliePage = () => {
   return (
-    <Worker workerUrl="https://unpkg.com/pdfjs-dist@3.4.120/build/pdf.worker.min.js">
+    <Worker workerUrl="https://unpkg.com/pdfjs-dist@3.11.174/build/pdf.worker.min.js">
       <div className=" max-w-screen min-h-screen flex-col bg-black-1">
         <ScrollTop />
         <div className="fixed top-0 z-10 hidden w-full md:block">

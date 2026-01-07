@@ -15,7 +15,10 @@ const RoleCards = () => {
           ${index === 3 ? "h-[30rem] max-w-[21rem]" : ""}
           ${index === 1 ? "h-[30rem] max-w-[30rem]" : ""} `}
         >
-          <img src={role.image} className="h-[27rem] w-full object-cover" />
+          <img
+            src={role.image}
+            className="h-[27rem] w-full object-cover brightness-0 invert"
+          />
         </div>
       ))}
     </div>

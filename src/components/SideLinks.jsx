@@ -8,7 +8,7 @@ const SideLinks = () => {
         <a
           key={contact.id}
           href={contact.link}
-          className=" hover:text-brown-1 transition-colors text-pink-2"
+          className=" hover:text-brown-1 transition-colors text-pink-1"
           target={contact.target}
         >
           <svg

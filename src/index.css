@@ -19,6 +19,11 @@
   src: url("./assets/fonts/Perandory-Condensed.otf") format("truetype");
   font-style: normal;
 }
+@font-face {
+  font-family: "brasika";
+  src: url("./assets/fonts/brasika-display-trial.otf") format("truetype");
+  font-style: normal;
+}
 
 .clip-left {
   clip-path: polygon(0 0, 100% 0, 0 100%);

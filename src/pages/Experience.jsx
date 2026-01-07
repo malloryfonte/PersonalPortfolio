@@ -3,6 +3,7 @@ import LargeNavigation from "../components/LargeNavigation";
 import SideLinks from "../components/SideLinks";
 import ExperienceBody from "../components/Experience/ExperienceBody";
 import ScrollTop from "./ScrollTop";
+import UpArrow from "../components/UpArrow";
 
 const Experience = () => {
   return (
@@ -14,9 +15,10 @@ const Experience = () => {
 
       <SideLinks />
 
-      <div className=" w-full bg-cream-1 items-center flex justify-center ">
+      <div className=" w-full bg-blue-light items-center flex justify-center ">
         <ExperienceBody />
       </div>
+      <UpArrow />
     </div>
   );
 };
