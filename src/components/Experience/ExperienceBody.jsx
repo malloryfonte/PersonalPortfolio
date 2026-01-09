@@ -47,7 +47,7 @@ const ExperienceBody = () => {
             newTab={true}
             background="#40476d"
           />
-          <span className="flex text-center text-[1rem] pt-10">
+          <span className="flex text-center text-[1rem] pt-10 font-judson">
             Here is an in-depth list of my work history. See resume for a
             concise version of my most recent experience.
           </span>

@@ -13,8 +13,8 @@ const HomeIntro = () => {
     return () => cancelAnimationFrame(id);
   }, []);
   return (
-    <div className="w-full min-h-screen flex overflow-hidden bg-gradient-to-r from-blue-dark to-blue-mid justify-center items-center ">
-      <div className="w-full min-h-screen flex flex-col items-center justify-center overflow-hidden">
+    <div className="w-full h-full flex overflow-hidden bg-gradient-to-r from-blue-dark to-blue-mid justify-center items-center ">
+      <div className="w-full h-full flex flex-col items-center justify-center overflow-hidden">
         <div className="border-b-[30px] border-blue-light flex w-full items-center justify-center overflow-hidden">
           <div className="flex justify-center pb-10 w-full">
             {/* WRAPPER THAT DEFINES THE TOTAL WIDTH */}
@@ -34,7 +34,7 @@ const HomeIntro = () => {
         </div>
 
         {/* STRIPES */}
-        <div className="bg-stripes-vertical w-full flex-1 z-[0]" />
+        <div className="bg-stripes-vertical w-full z-[0] flex-1" />
       </div>
     </div>
   );

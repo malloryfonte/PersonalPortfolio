@@ -7,7 +7,7 @@ const HomeRecommendations = () => {
     <div className="w-full h-full bg-blue-light justify-center flex flex-col items-center">
       <div className="flex flex-col w-[1280px] justify-center items-center space-y-8">
         <div className="flex flex-col ">
-          <span className="font-brasika text-blue-dark text-[6rem]">
+          <span className="font-brasika text-blue-dark text-[6rem] leading-none">
             Why work with me?
           </span>
           <div className="flex justify-end">

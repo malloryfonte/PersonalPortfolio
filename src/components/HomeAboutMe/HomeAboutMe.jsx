@@ -3,13 +3,13 @@ import { contact } from "../../constants";
 
 const HomeAboutMe = () => {
   return (
-    <div className="relative w-full min-h-screen overflow-hidden">
+    <div className="relative w-full h-full overflow-hidden">
       {/* Backgrounds */}
       <div className="absolute top-0 left-0 w-full h-[40%] bg-stripes-vertical" />
       <div className="absolute bottom-0 left-0 w-full h-[60%] bg-blue-light" />
 
       {/* Content */}
-      <div className="relative mx-auto w-[1080px] min-h-screen grid grid-cols-[1fr_420px] grid-rows-[40%_60%] gap-x-10 ">
+      <div className="relative mx-auto w-[1080px] h-full grid grid-cols-[1fr_420px] grid-rows-[40%_60%] gap-x-10 ">
         {/* Title */}
         <div className="flex items-end pb-10">
           <span className="text-white font-perandory text-[9rem] leading-[.75]">
@@ -28,29 +28,29 @@ const HomeAboutMe = () => {
         </div>
 
         {/* Description */}
-        <div className="flex items-start pt-10">
-          <p className="font-judson text-blue-mid text-[1.1rem] leading-tight max-w-full">
-            Hi! I’m Mallory, a senior at Purdue University studying
-            Communications with concentrations in Public Relations and Mass
-            Media, and minoring in General Communications. I’m graduating in May
-            2026 and continuing my academic journey with a Master of Science in
-            Communications, which I’ll complete remotely by May 2027. Currently,
-            I’m excited to be interning with Her Campus Media as a Community and
-            Influencer Marketing Intern, while also working as a Marketing
-            Intern for SDI Innovations, where I’ve been working since August
-            2023. Additionally, I am entering my second year as a Vlogger for
-            Boiler Ambassadors, while also taking on a new role as Creative
-            Lead. On campus, I’m actively involved with Purdue Student
-            Government and Higher Ground Dance Company, where I get to blend my
-            love for community, performance, and creativity. Post-grad, my dream
-            is to work in industries I’m passionate about, especially beauty,
-            music, fashion, entertainment, or sports, helping brands tell
-            authentic stories through strategic marketing and PR. Outside of
-            school and work, you’ll usually find me at concerts, behind a
-            camera, or spending time with my sisters and friends. My long-term
-            goals? Build a meaningful career I love, stay creative, and one day,
-            adopt a corgi!{" "}
-          </p>
+        <div className="flex flex-col gap-8 items-start pt-10 font-judson text-blue-large text-[1.1rem] leading-tight">
+          <span className=" max-w-full">
+            Hey there! I’m Mallory, a senior at Purdue University graduating in
+            May 2026 with a Bachelor’s degree in Public Relations and Mass Media
+            Communication. During my time at Purdue, I’ve been grateful to gain
+            10+ internships and work experiences (you can explore them in my
+            Experience tab!), and I’m currently on the hunt for my next
+            opportunity post-graduation.
+          </span>
+          <span className=" max-w-full">
+            My dream is to work in marketing within the entertainment, beauty,
+            fashion, music, or film industries, but I’m always excited to see
+            where creativity and curiosity may take me. On campus, I’m involved
+            with Higher Ground Dance Company and Purdue Student Government.
+            Outside of class, work, rehearsals, and meetings, you’ll usually
+            find me at a concert, painting, or spending time with the incredible
+            people I’ve met along the way.
+          </span>
+
+          <span className=" max-w-full">
+            Thanks for stopping by. I’m glad you’re here, and I encourage you to
+            connect!
+          </span>
         </div>
       </div>
     </div>

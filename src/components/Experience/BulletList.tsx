@@ -2,7 +2,7 @@ import React from "react";
 
 const BulletList = ({ items }) => {
   return (
-    <ul className="list-disc list-inside">
+    <ul className="list-disc list-inside font-judson">
       {items.map((item, index) => (
         <li key={index} className="mb-1">
           {item.text}

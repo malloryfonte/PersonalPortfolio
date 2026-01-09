@@ -9,7 +9,7 @@ import HomeRecommendations from "../components/HomeRecommendations/HomeRecommend
 
 const Home = () => {
   return (
-    <div className=" max-w-screen min-h-[70vh] md:min-h-screen flex-col font-perandory bg-blue-light">
+    <div className=" max-w-screen min-h-[70vh] md:min-h-screen flex-col font-perandory bg-blue-light overflow-hidden">
       <ScrollTop />
       <div className="fixed top-0 z-10 hidden w-full md:block">
         <LargeNavigation />
@@ -17,11 +17,11 @@ const Home = () => {
 
       <SideLinks />
 
-      <div className="min-h-[70vh] md:min-h-screen w-full bg-blue-dark">
+      <div className="h-[clamp(600px,100vh,900px)] w-full bg-blue-dark">
         <HomeIntro />
       </div>
 
-      <div className="min-h-[70vh] md:min-h-screen w-full">
+      <div className="h-[clamp(600px,100vh,900px)]  w-full">
         <HomeAboutMe />
       </div>
 
@@ -45,7 +45,7 @@ const Home = () => {
             </span>
             <img
               src="/PersonalPortfolio/scrapboard.png"
-              className="w-full object-cover scale-125 ml-[5rem]"
+              className="w-full object-cover scale-125 ml-[12.5rem]"
             />
           </div>
         </div>
