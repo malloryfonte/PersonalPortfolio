@@ -7,6 +7,7 @@ import {
   UnionReels,
 } from "../../constants";
 import ContentCreationBlock from "./ContentCreationBlock";
+import BackgroundStar from "../BackgroundStar";
 
 const ContentCreationBody = () => {
   const [fade, setFade] = useState(true);
@@ -38,6 +39,18 @@ const ContentCreationBody = () => {
           />
         </div>
       </div>
+      <div className="relative w-full h-full ">
+        <div className="absolute inset-0 z-0 text-white">
+          {/* Top-left star */}
+          <BackgroundStar
+            top="300px"
+            left="-150px"
+            size={400}
+            rotation={-15}
+            opacity={0.3}
+          />
+        </div>
+      </div>
 
       <ContentCreationBlock
         reels={SparklingIceReels}
@@ -47,6 +60,18 @@ const ContentCreationBody = () => {
           `Collaborated closely with the Sparkling Ice marketing team, actively participating in content creation, reviewing materials, and executed successful sampling initiatives.`,
         ]}
       />
+      <div className="relative w-full h-full ">
+        <div className="absolute inset-0 z-0 text-white">
+          {/* Top-left star */}
+          <BackgroundStar
+            top="50px"
+            left="750px"
+            size={500}
+            rotation={20}
+            opacity={0.4}
+          />
+        </div>
+      </div>
       <ContentCreationBlock
         reels={CliniqueReels}
         title={"Clinique On Campus"}
@@ -58,6 +83,18 @@ const ContentCreationBody = () => {
         ]}
         reverse
       />
+      <div className="relative w-full h-full ">
+        <div className="absolute inset-0 z-0 text-white">
+          {/* Top-left star */}
+          <BackgroundStar
+            top="50px"
+            left="400px"
+            size={500}
+            rotation={60}
+            opacity={0.4}
+          />
+        </div>
+      </div>
       <ContentCreationBlock
         reels={DoveReels}
         title={"Partnership With Dove"}
@@ -68,6 +105,18 @@ const ContentCreationBody = () => {
           "Reached 77k+ users, garnering 88k+ views",
         ]}
       />
+      <div className="relative w-full h-full ">
+        <div className="absolute inset-0 z-0 text-white">
+          {/* Top-left star */}
+          <BackgroundStar
+            top="0px"
+            left="900px"
+            size={200}
+            rotation={20}
+            opacity={0.4}
+          />
+        </div>
+      </div>
       <ContentCreationBlock
         reels={UnionReels}
         title={"Partnership With Dove"}
@@ -80,6 +129,18 @@ const ContentCreationBody = () => {
         ]}
         reverse
       />
+      <div className="relative w-full h-full ">
+        <div className="absolute inset-0 z-0 text-white">
+          {/* Top-left star */}
+          <BackgroundStar
+            top="50px"
+            left="200px"
+            size={600}
+            rotation={-15}
+            opacity={0.4}
+          />
+        </div>
+      </div>
       <ContentCreationBlock
         reels={BoilerAmbassadorReels}
         title={"Boiler ambassadors"}

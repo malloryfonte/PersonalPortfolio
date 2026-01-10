@@ -6,6 +6,7 @@ import HomeAboutMe from "../components/HomeAboutMe/HomeAboutMe";
 import HomeConnect from "../components/HomeConnect/HomeConnect";
 import ScrollTop from "./ScrollTop";
 import HomeRecommendations from "../components/HomeRecommendations/HomeRecommendations";
+import BackgroundStar from "../components/BackgroundStar";
 
 const Home = () => {
   return (
@@ -17,7 +18,7 @@ const Home = () => {
 
       <SideLinks />
 
-      <div className="h-[clamp(600px,100vh,900px)] w-full bg-blue-dark">
+      <div className="h-[clamp(600px,100vh,900px)] w-full bg-blue-dark ">
         <HomeIntro />
       </div>
 
@@ -40,12 +41,41 @@ const Home = () => {
       <div className=" w-full min-h-[70vh] md:min-h-screen pt-20">
         <div className="flex w-full h-full items-center justify-center ">
           <div className=" w-[1080px] h-full flex flex-col items-center justify-center ">
-            <span className="text-white font-perandory mb-[-3rem] text-[11rem] text-justify leading-none">
+            <div className="relative w-full h-full ">
+              <div className="absolute inset-0 z-0 ">
+                {/* Top-left star */}
+                <BackgroundStar
+                  top="-100px"
+                  left="-100px"
+                  size={500}
+                  rotation={45}
+                  opacity={0.05}
+                />
+
+                {/* bottom left star */}
+                <BackgroundStar
+                  top="450px"
+                  left="50px"
+                  size={300}
+                  rotation={-30}
+                  opacity={0.05}
+                />
+
+                <BackgroundStar
+                  top="300px"
+                  left="800px"
+                  size={500}
+                  rotation={30}
+                  opacity={0.05}
+                />
+              </div>
+            </div>
+            <span className="text-white font-perandory mb-[-3rem] text-[11rem] text-justify leading-none z-[1]">
               GET TO KNOW ME
             </span>
             <img
               src="/PersonalPortfolio/scrapboard.png"
-              className="w-full object-cover scale-125 ml-[12.5rem]"
+              className="w-full object-cover scale-125 ml-[12.5rem] z-[1]"
             />
           </div>
         </div>

@@ -1,13 +1,26 @@
 import React from "react";
 import Recommendation from "./Recommendation";
 import ReversedRecommendation from "./ReversedRecommendation";
+import BackgroundStar from "../BackgroundStar";
 
 const HomeRecommendations = () => {
   return (
     <div className="w-full h-full bg-blue-light justify-center flex flex-col items-center">
       <div className="flex flex-col w-[1280px] justify-center items-center space-y-8">
+        <div className="relative w-full h-full ">
+          <div className="absolute inset-0 z-0 ">
+            {/* Top-left star */}
+            <BackgroundStar
+              top="-50px"
+              left="150px"
+              size={300}
+              rotation={-15}
+              opacity={0.04}
+            />
+          </div>
+        </div>
         <div className="flex flex-col ">
-          <span className="font-brasika text-blue-dark text-[6rem] leading-none">
+          <span className="font-brasika text-blue-dark text-[6rem] leading-none z-[1]">
             Why work with me?
           </span>
           <div className="flex justify-end">
@@ -16,7 +29,7 @@ const HomeRecommendations = () => {
             </span>
           </div>
         </div>
-        <div className="flex flex-col space-y-12">
+        <div className="flex flex-col space-y-12 z-[2]">
           <Recommendation
             description={[
               `“If you’re looking for someone willing to sit on the sidelines and never contribute anything valuable to your team, Mallory is not your girl.

@@ -24,7 +24,7 @@ const ContentCreationBlock = ({
 }: ContentCreationBlockProps) => {
   return (
     <div
-      className={`flex w-full justify-center items-center gap-10 ${
+      className={`flex w-full justify-center items-center gap-10 z-[1] text-blue-dark ${
         reverse ? "flex-row-reverse" : "flex-row"
       }`}
     >
@@ -37,7 +37,7 @@ const ContentCreationBlock = ({
         <ul className="list-disc list-inside">
           {description.map((item, idx) => (
             <li key={idx}>
-              <span className="font-judson">{item}</span>
+              <span className="font-judson text-[1.2rem]">{item}</span>
             </li>
           ))}
         </ul>

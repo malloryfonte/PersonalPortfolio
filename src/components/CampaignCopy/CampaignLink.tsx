@@ -28,13 +28,22 @@ const CampaignLink = ({ image }: CampaignLinkProps) => {
       </div>
 
       {/* IMAGE — intrinsic height */}
-      <img src={image} className="w-full h-auto object-contain max-h-[520px]" />
+      <img
+        src={image}
+        className="w-full h-auto object-contain max-h-[520px]  bg-blue-dark"
+      />
 
       {/* bottom bar */}
-      <div className="flex w-full h-[38px] items-center bg-white border-t-2 border-blue-dark">
-        <ArrowLeft size={36} />
-        <div className="flex-1 h-full bg-pink-1 mx-2" />
-        <ArrowRight size={36} />
+      <div className="flex w-full items-center h-[38px]  justify-start text-blue-dark bg-white ">
+        <div className="flex  items-center gap-1 border-blue-dark border-r-2 border-t-2">
+          <ArrowLeft size={36} />
+        </div>
+        <div className="flex w-full h-[38px] justify-start items-center gap-1 border-blue-dark border-t-2">
+          <div className="flex w-1/5 h-full bg-pink-1"></div>
+        </div>
+        <div className="flex  items-center gap-1 border-blue-dark border-l-2 border-t-2">
+          <ArrowRight size={36} />
+        </div>
       </div>
     </div>
   );

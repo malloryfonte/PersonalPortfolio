@@ -283,25 +283,59 @@ export const experience = [
 ];
 
 export const Billie = [
-  {
-    images: [
-      "/PersonalPortfolio//Campaigns/Billie/Billie1.png",
-      "/PersonalPortfolio//Campaigns/Billie/Billie2.png",
-      "/PersonalPortfolio//Campaigns/Billie/Billie3.png",
-      "/PersonalPortfolio//Campaigns/Billie/Billie4.png",
-      "/PersonalPortfolio//Campaigns/Billie/Billie5.png",
-      "/PersonalPortfolio//Campaigns/Billie/Billie6.png",
-      "/PersonalPortfolio//Campaigns/Billie/Billie7.png",
-      "/PersonalPortfolio//Campaigns/Billie/Billie8.png",
-      "/PersonalPortfolio//Campaigns/Billie/Billie9.png",
-      "/PersonalPortfolio//Campaigns/Billie/Billie10.png",
-      "/PersonalPortfolio//Campaigns/Billie/Billie11.png",
-      "/PersonalPortfolio//Campaigns/Billie/Billie12.png",
-      "/PersonalPortfolio//Campaigns/Billie/Billie13.png",
-      "/PersonalPortfolio//Campaigns/Billie/Billie14.png",
-      "/PersonalPortfolio//Campaigns/Billie/Billie15.png",
-    ],
-  },
+  "/PersonalPortfolio//Campaigns/Billie/Billie1.png",
+  "/PersonalPortfolio//Campaigns/Billie/Billie2.png",
+  "/PersonalPortfolio//Campaigns/Billie/Billie3.png",
+  "/PersonalPortfolio//Campaigns/Billie/Billie4.png",
+  "/PersonalPortfolio//Campaigns/Billie/Billie5.png",
+  "/PersonalPortfolio//Campaigns/Billie/Billie6.png",
+  "/PersonalPortfolio//Campaigns/Billie/Billie7.png",
+  "/PersonalPortfolio//Campaigns/Billie/Billie8.png",
+  "/PersonalPortfolio//Campaigns/Billie/Billie9.png",
+  "/PersonalPortfolio//Campaigns/Billie/Billie10.png",
+  "/PersonalPortfolio//Campaigns/Billie/Billie11.png",
+  "/PersonalPortfolio//Campaigns/Billie/Billie12.png",
+  "/PersonalPortfolio//Campaigns/Billie/Billie13.png",
+  "/PersonalPortfolio//Campaigns/Billie/Billie14.png",
+  "/PersonalPortfolio//Campaigns/Billie/Billie15.png",
+];
+
+export const ConanEmma = [
+  "/PersonalPortfolio//Campaigns/ConanEmma/Portfolio Pieces (0).png",
+  "/PersonalPortfolio//Campaigns/ConanEmma/Portfolio Pieces (1).png",
+  "/PersonalPortfolio//Campaigns/ConanEmma/Portfolio Pieces (2).png",
+  "/PersonalPortfolio//Campaigns/ConanEmma/Portfolio Pieces (3).png",
+  "/PersonalPortfolio//Campaigns/ConanEmma/Portfolio Pieces (4).png",
+  "/PersonalPortfolio//Campaigns/ConanEmma/Portfolio Pieces (5).png",
+  "/PersonalPortfolio//Campaigns/ConanEmma/Portfolio Pieces (6).png",
+  "/PersonalPortfolio//Campaigns/ConanEmma/Portfolio Pieces (7).png",
+  "/PersonalPortfolio//Campaigns/ConanEmma/Portfolio Pieces (8).png",
+  "/PersonalPortfolio//Campaigns/ConanEmma/Portfolio Pieces (9).png",
+  "/PersonalPortfolio//Campaigns/ConanEmma/Portfolio Pieces (10).png",
+  "/PersonalPortfolio//Campaigns/ConanEmma/Portfolio Pieces (11).png",
+  "/PersonalPortfolio//Campaigns/ConanEmma/Portfolio Pieces (12).png",
+  "/PersonalPortfolio//Campaigns/ConanEmma/Portfolio Pieces (13).png",
+  "/PersonalPortfolio//Campaigns/ConanEmma/Portfolio Pieces (14).png",
+  "/PersonalPortfolio//Campaigns/ConanEmma/Portfolio Pieces (15).png",
+  "/PersonalPortfolio//Campaigns/ConanEmma/Portfolio Pieces (16).png",
+];
+
+export const SmoshFlip7 = [
+  "/PersonalPortfolio//Campaigns/Smosh/20.png",
+  "/PersonalPortfolio//Campaigns/Smosh/21.png",
+  "/PersonalPortfolio//Campaigns/Smosh/22.png",
+  "/PersonalPortfolio//Campaigns/Smosh/23.png",
+  "/PersonalPortfolio//Campaigns/Smosh/24.png",
+  "/PersonalPortfolio//Campaigns/Smosh/25.png",
+  "/PersonalPortfolio//Campaigns/Smosh/26.png",
+  "/PersonalPortfolio//Campaigns/Smosh/27.png",
+  "/PersonalPortfolio//Campaigns/Smosh/28.png",
+  "/PersonalPortfolio//Campaigns/Smosh/29.png",
+  "/PersonalPortfolio//Campaigns/Smosh/30.png",
+  "/PersonalPortfolio//Campaigns/Smosh/31.png",
+  "/PersonalPortfolio//Campaigns/Smosh/32.png",
+  "/PersonalPortfolio//Campaigns/Smosh/33.png",
+  "/PersonalPortfolio//Campaigns/Smosh/34.png",
 ];
 
 export const photonav = [

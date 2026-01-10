@@ -42,6 +42,7 @@ export default {
         caraterre: ["carattere", "sans-serif"],
         perandory: ["perandory", "sans-serif"],
         brasika: ["brasika", "sans-serif"],
+        serifPro: ["serifPro", "sans-serif"],
       },
 
       boxShadow: { card: "12px 12px 12px rgba(0, 0, 0, 0.25)" },

@@ -7,7 +7,7 @@ import UpArrow from "../components/UpArrow";
 
 const Photography = () => {
   return (
-    <div className=" max-w-screen min-h-screen flex-col bg-blue-dark">
+    <div className=" max-w-screen min-h-screen flex-col bg-blue-light">
       <ScrollTop />
       <div className="fixed top-0 z-10 hidden w-full md:block">
         <LargeNavigation />
