@@ -13,14 +13,12 @@ const ContentCreationBody = () => {
   const [fade, setFade] = useState(true);
 
   return (
-    <div className="w-[1024px] flex flex-col items-center py-8 space-y-20">
-      <div className=" font-perandory pt-20 w-full flex flex-col items-center justify-center space-y-8">
-        <div className=" w-full flex items-center justify-center bg-pink-1 rounded-md">
-          <span className="m-0 text-white px-8 relative top-[15px] text-[10rem]">
-            Content Creation
-          </span>
+    <div className="w-[1024px] flex flex-col pt-20 items-center space-y-20">
+      <div className=" font-perandory  w-full flex flex-col items-center justify-center ">
+        <div className=" w-full flex items-center justify-center rounded-md ">
+          <span className="text-blue-dark text-[12rem]">Content Creation</span>
         </div>
-        <div className="w-full items-center justify-center flex flex-col gap-10 overflow-hidden">
+        <div className="w-full items-center justify-center flex flex-col gap-10 overflow-hidden mt-[-20px]">
           <span className="text-[1.5rem] text-center font-judson text-blue-dark">
             My portfolio showcases a diverse range of work that reflects both my
             creativity and versatility as a content creator. It includes
@@ -119,7 +117,7 @@ const ContentCreationBody = () => {
       </div>
       <ContentCreationBlock
         reels={UnionReels}
-        title={"Partnership With Dove"}
+        title={"Partnership With The Union Club Hotel"}
         description={[
           `For a class competition, we did a collaboration video with the Union Club Hotel at Purdue`,
           `One student was chosen to move on with a sponsored partnership with the brand, and I ended up being awarded that sponsorship`,

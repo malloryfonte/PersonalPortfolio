@@ -6,7 +6,7 @@ const CampaignsCopyBody = () => {
   const [fade, setFade] = useState(true);
 
   return (
-    <div className="w-[1024px] pb-[3rem] flex flex-col items-center ">
+    <div className="w-[1024px] flex flex-col items-center ">
       <div className="text-[12rem] font-perandory pt-20 text-blue-dark flex flex-col items-center justify-center z-[1]">
         <p className="m-0">Campaigns & Copy</p>
       </div>
@@ -23,13 +23,13 @@ const CampaignsCopyBody = () => {
           logoStyling={"ml-[-11px] w-[320px]"}
         />
         <CampaignBlock
-          title="Coffee Blend Collaboration"
+          title="Custom card deck release"
           link="/CampaignsCopy/SmoshFlip7"
           imageSrc="/PersonalPortfolio//Campaigns/Logos/smoshThumbNail.png"
           logo="/PersonalPortfolio//Campaigns/Logos/smosh logo.png"
           buttontext="View Campaign"
           description={
-            "Theoretical brand collaboration and integrated marketing campaign between Chamberlain Coffee and Conan Gray"
+            "Theoretical card game collaboration between SMOSH and Flip"
           }
           logoStyling={"ml-[-11px] w-[350px]"}
           reverse
@@ -43,7 +43,7 @@ const CampaignsCopyBody = () => {
           description={
             "Theoretical brand collaboration and integrated marketing campaign between Chamberlain Coffee and Conan Gray"
           }
-          logoStyling={"text-white text-[2.5rem] mt-[25px]"}
+          logoStyling={"text-white text-[2.7rem] mt-[25px] leading-tight"}
           textLogo={"Chamberlain Coffee & Conan Gray"}
         />
       </div>

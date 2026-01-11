@@ -29,9 +29,9 @@ const CampaignBlock = ({
 
       {/* TEXT */}
       <div className="flex flex-col flex-1 h-full gap-2">
-        <div className="flex flex-col">
+        <div className={`flex flex-col ${textLogo ? "gap-4" : ""}`}>
           {textLogo ? (
-            <span className={` font-serifPro  ${logoStyling}`}>{textLogo}</span>
+            <span className={` font-serifPro ${logoStyling}`}>{textLogo}</span>
           ) : (
             <img src={logo} className={` object-cover ${logoStyling}`} />
           )}

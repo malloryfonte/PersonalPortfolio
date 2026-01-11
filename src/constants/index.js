@@ -204,8 +204,7 @@ export const experience = [
   {
     id: "6",
     sectiontitle: "Leadership",
-    jobtitle:
-      "Purdue Student Government- Executive Director of Communications and Deputy Chief of Staff",
+    jobtitle: "Purdue Student Government - Brand Strategist",
     at: "",
     bulletPoints: [
       {
