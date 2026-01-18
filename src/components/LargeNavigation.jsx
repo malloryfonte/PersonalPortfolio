@@ -31,7 +31,6 @@ const LargeNavigation = () => {
           );
         })}
       </div>
-      ;
     </div>
   );
 };
