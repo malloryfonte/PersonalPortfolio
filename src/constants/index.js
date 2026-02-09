@@ -82,28 +82,28 @@ export const contact = [
 export const experience = [
   {
     id: "0",
-    sectiontitle: "Social Media Management",
-    jobtitle: "Content Creation and Ambassadorships- Freelance 2022-Present",
-    at: "@mallory.fonte",
+    sectiontitle: "",
+    jobtitle:
+      "Campus and Influencer Marketing Intern - Her Campus Media - September 2025 – December 2025",
     bulletPoints: [
       {
-        text: "Developed marketing content including social media updates, blogs, and video campaigns to post on my personal page, supporting brands as an ambassador/influencer.",
+        text: "Contributed to the management and activation of creator networks for client influencer campaigns, ensuring alignment with brand goals and audience engagement strategies",
         subPoints: [],
       },
       {
-        text: "Brands represented include CeraVe, Clinique, American Eagle, Uber One, Amazon Student Prime, Cramify.ai, and BEARPAW.",
+        text: "Developed detailed content briefs and campaign materials for influencers and brand partners to maintain consistent messaging and tone",
         subPoints: [],
       },
       {
-        text: "Maintained an engagement rate between 13%-16% and reached over 4,000 accounts in the last 30 days.",
+        text: "Helped administer and fulfill giveaways and promotions",
         subPoints: [],
       },
       {
-        text: "Collaborated with marketing teams and brand partners to develop engaging social media campaigns and track performance.",
+        text: "Monitored and analyzed content performance, compiling insights to support campaign reporting and future strategy development",
         subPoints: [],
       },
       {
-        text: "Expanded skills in brand identity, event planning, campaign execution, digital marketing, PR, networking, idea-pitching, product marketing, photography, videography, visual branding, and content strategy.",
+        text: "Collaborated with the C&I and recruitment teams to assist in influencer content review and approval, ensuring high-quality, on-brand deliverables",
         subPoints: [],
       },
     ],
@@ -111,33 +111,24 @@ export const experience = [
 
   {
     id: "1",
-    sectiontitle: "Social Media Management",
+    sectiontitle: "",
     jobtitle:
-      "Marketing and Communications Intern - SDI Innovations 08/2023-01/2025",
-    at: "@sdiinnovations",
+      "Marketing Intern - Circle City Athletics - June 2025 – August 2025",
     bulletPoints: [
       {
-        text: "Created graphic designs for multiple social media platforms (Instagram, TikTok, Twitter, Facebook), pitch decks, and campaign reports.",
+        text: "Executed a multi-week social media campaign for CCA’s Bar Games Crawl, generating 23K total post views and driving 30% of ticket sales directly from social media",
         subPoints: [],
       },
       {
-        text: "Maintained an engagement rate of 4% or higher on social platforms, and assisted with community management/engagement, social listening, PR campaigns, influencer outreach, and media relations.",
+        text: "Managed Instagram Stories giveaways to boost audience participation and support ticket sales",
         subPoints: [],
       },
       {
-        text: "Strategized and developed campaigns with the Social Media Manager to promote brand awareness and company culture, as well as conducted trend and performance analysis.",
+        text: "Coordinated an influencer collaboration that generated 13.6K additional views, expanding campaign reach and awareness",
         subPoints: [],
       },
       {
-        text: "Conducted market research and competitive analysis to inform campaign strategies.",
-        subPoints: [],
-      },
-      {
-        text: "Wrote caption copy, blogs, and email marketing, while also gaining skills in project management.",
-        subPoints: [],
-      },
-      {
-        text: "Created and produced a video series that achieved 3.1K+ pageviews and 2.6K visitors in a single month, while maintaining an average time-on-page of 2+ minutes.",
+        text: "Analyzed campaign performance metrics to assess content effectiveness and inform future promotional strategy",
         subPoints: [],
       },
     ],
@@ -145,57 +136,91 @@ export const experience = [
 
   {
     id: "2",
-    sectiontitle: "Content Creation",
+    sectiontitle: "",
     jobtitle:
-      "Creative Lead and Content Creator - Boiler Ambassadors 08/2024-Present",
-    at: "@boilerambassadors and @lifeatpurdue",
+      "Creative Lead and Boiler Ambassador - Purdue Brand Studio - August 2024 – Present",
     bulletPoints: [
       {
-        text: "Serve as a Boiler Ambassador at Purdue University, developing engaging digital content to connect with prospective and current students while promoting university life and campus culture.",
+        text: "Serve as a Boiler Ambassador at Purdue University, developing engaging digital content to connect with prospective and current students while promoting university life and campus culture",
         subPoints: [],
       },
       {
-        text: "In my role as a Content Creator, I produce high-quality video and photo content for Instagram and YouTube, showcasing student experiences, campus events, and academic opportunities to enhance Purdue’s online presence.",
+        text: "Produced high-quality video and photo content for Instagram and YouTube, showcasing student experiences, campus events, and academic opportunities to enhance Purdue’s online presence",
         subPoints: [
           {
-            text: "Achieved a reach of over 200,000 users, leveraging strategic content creation and platform engagement to increase visibility and interaction with Purdue’s digital audience.",
+            text: "Achieved a reach of over 200,000 users, leveraging strategic content creation and platform engagement to increase visibility and interaction with Purdue’s digital audience",
             subPoints: [],
           },
         ],
       },
       {
-        text: "In my role as a Creative Lead, I oversee the vision and execution of photo shoots for Purdue Team Store, from developing creative briefs and styling talent to coordinating with photographers and ensuring everything runs smoothly on set.",
-        subPoints: [
-          {
-            text: "I also help tell the Purdue story by aligning visuals with campaign goals and keeping our creative direction cohesive",
-            subPoints: [],
-          },
-        ],
+        text: "Oversaw the vision and execution of photo shoots for Purdue Team Store, from developing creative briefs and styling talent to coordinating with photographers and ensuring smooth on-set execution",
+        subPoints: [],
+      },
+      {
+        text: "Told the Purdue story by aligning visuals with campaign goals and keeping creative direction cohesive",
+        subPoints: [],
       },
     ],
   },
 
   {
     id: "3",
-    sectiontitle: "Content Creation",
+    sectiontitle: "",
     jobtitle:
-      "Senior Brand Ambassador and Influencer - American Eagle 10/2020-01/2024",
-    at: "@mallory.fonte and featured on @americaneagle",
+      "Marketing and Communications Intern - SDI Innovations - August 2023 – Present",
     bulletPoints: [
       {
-        text: "Produced high-quality photo and video content for the brand, showcasing products on my personal platform to drive engagement.",
+        text: "Created graphic designs for multiple social media platforms (Instagram, TikTok, Twitter, Facebook), pitch decks, and campaign reports",
         subPoints: [],
       },
       {
-        text: "Interpreted and applied campaign briefs and style guides to ensure brand consistency.",
+        text: "Maintained an engagement rate of 4% or higher on social platforms, while assisting with community management, social listening, PR campaigns, influencer outreach, and media relations",
         subPoints: [],
       },
       {
-        text: "Conducted personalized one-on-one styling appointments, enhancing the customer experience and boosting sales.",
+        text: "Strategized and developed campaigns with the Social Media Manager to promote brand awareness and company culture, including trend and performance analysis",
         subPoints: [],
       },
       {
-        text: "Developed strong skills in customer service, sales, teamwork, conflict resolution, and brand representation.",
+        text: "Wrote caption copy, blogs, and email marketing content while gaining hands-on project management experience",
+        subPoints: [],
+      },
+      {
+        text: "Created and produced a video series that achieved 3.1K+ pageviews and 2.6K visitors in a single month, with an average time-on-page of 2+ minutes",
+        subPoints: [],
+      },
+    ],
+  },
+
+  {
+    id: "4",
+    sectiontitle: "",
+    jobtitle:
+      "Content Creation and Ambassadorships - Freelance - 2022 – Present",
+    bulletPoints: [
+      {
+        text: "Developed marketing content including social media updates, blogs, and video campaigns for personal platforms while supporting brands as an ambassador and influencer",
+        subPoints: [],
+      },
+      {
+        text: "Brands represented include CeraVe, Clinique, American Eagle, Uber One, Amazon Student Prime, Hallmark, Sparkling Ice, BEARPAW, and more",
+        subPoints: [],
+      },
+      {
+        text: "Maintained an engagement rate between 13%–16% and reached over 4,000 accounts in the last 30 days",
+        subPoints: [],
+      },
+      {
+        text: "Represented brand partners at on-campus events through tabling activations, product sampling, and student engagement to increase brand awareness",
+        subPoints: [],
+      },
+      {
+        text: "Collaborated with marketing teams and brand partners to develop engaging social media campaigns, track performance, and execute activations",
+        subPoints: [],
+      },
+      {
+        text: "Expanded skills in brand identity, event planning, campaign execution, digital marketing, PR, networking, pitching, product marketing, photography, videography, visual branding, and content strategy",
         subPoints: [],
       },
     ],
@@ -208,15 +233,15 @@ export const experience = [
     at: "",
     bulletPoints: [
       {
-        text: "Led university-wide communications strategies, managed multi-platform content, and oversaw a team dedicated to student outreach and engagement.",
+        text: "Led university-wide communications strategies, managed multi-platform content, and oversaw a team dedicated to student outreach and engagement",
         subPoints: [],
       },
       {
-        text: "Collaborated closely with campus partners to promote PSG initiatives, crafted messaging for key events and policies, and supported internal operations to ensure smooth coordination across branches.",
+        text: "Collaborated with campus partners to promote PSG initiatives, crafted messaging for key events and policies, and supported internal operations",
         subPoints: [],
       },
       {
-        text: "Strengthened leadership, strategic planning, and crisis communication skills while gaining experience representing and advocating for a large, diverse student body.",
+        text: "Strengthened leadership, strategic planning, and crisis communication skills while representing a diverse student body",
         subPoints: [],
       },
     ],
@@ -225,23 +250,23 @@ export const experience = [
   {
     id: "7",
     sectiontitle: "Leadership",
-    jobtitle: "Higher Ground Dance Company- Choreographer",
+    jobtitle: "Higher Ground Dance Company - Choreographer",
     at: "",
     bulletPoints: [
       {
-        text: "Created original pieces that emphasized storytelling, musicality, and emotional connection across various dance styles.",
+        text: "Created original choreography emphasizing storytelling, musicality, and emotional connection across styles",
         subPoints: [],
       },
       {
-        text: "Led rehearsals focused on clarity, patience, and adaptability while teaching dancers of diverse learning styles.",
+        text: "Led rehearsals with a focus on clarity, adaptability, and inclusive teaching methods",
         subPoints: [],
       },
       {
-        text: "Tailored instruction using visual, verbal, and kinesthetic methods to ensure every dancer felt confident and supported.",
+        text: "Tailored instruction using visual, verbal, and kinesthetic approaches to support diverse learning styles",
         subPoints: [],
       },
       {
-        text: "Developed skills in creative leadership, collaborative direction, and inclusive teaching while fostering a positive rehearsal environment.",
+        text: "Developed skills in creative leadership, collaboration, and inclusive direction",
         subPoints: [],
       },
     ],
@@ -254,27 +279,27 @@ export const experience = [
     at: "",
     bulletPoints: [
       {
-        text: "Best Short Form Video Award at the Purdue Gold Carpet Gala 2023, 2024, 2025",
+        text: "Best Short Form Video Award – Purdue Gold Carpet Gala 2023, 2024, 2025",
         subPoints: [],
       },
       {
-        text: "Achievement in Social Media (personal) at the Purdue Gold Carpet Gala 2024",
+        text: "Achievement in Social Media (Personal) – Purdue Gold Carpet Gala 2024",
         subPoints: [],
       },
       { text: "Clinique on Campus Top Ambassador Fall 2024", subPoints: [] },
       {
-        text: "Outstanding Underclassman- Higher Ground Dance Company Spring 2024",
+        text: "Outstanding Underclassman – Higher Ground Dance Company Spring 2024",
         subPoints: [],
       },
       { text: "Job-Ready Internship Award Summer 2025", subPoints: [] },
       { text: "Sparkling Ice Top Ambassador Spring 2025", subPoints: [] },
-      { text: "Best Portfolio Website Gold Carpet Gala 2025", subPoints: [] },
+      { text: "Best Portfolio Website – Gold Carpet Gala 2025", subPoints: [] },
       {
-        text: "Honorable Mention Best PR Campaign Gold Carpet Gala 2025",
+        text: "Honorable Mention Best PR Campaign – Gold Carpet Gala 2025",
         subPoints: [],
       },
       {
-        text: "Honorable Mention Best Personal Social Media Account Gold Carpet Gala 2025",
+        text: "Honorable Mention Best Personal Social Media Account – Gold Carpet Gala 2025",
         subPoints: [],
       },
     ],

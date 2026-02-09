@@ -2,7 +2,6 @@ import React from "react";
 import { experience } from "../../constants";
 import { useState } from "react";
 import ArrowButton from "../HomeConnect/ArrowButton";
-import { graphicnav } from "../../constants";
 import ToolTag from "./ToolTag";
 import BulletList from "./BulletList";
 
@@ -66,10 +65,11 @@ const ExperienceBody = () => {
       {Object.keys(groupedExperience).map((sectionTitle) => (
         <div key={sectionTitle} className="w-full">
           {/* Section Title */}
-          <div className="text-[8rem] font-perandory text-blue-light flex items-center justify-center bg-blue-dark h-[10rem] mt-[2rem] rounded-sm">
-            <p className="m-0 mt-[2rem]">{sectionTitle}</p>
-          </div>
-
+          {sectionTitle && (
+            <div className="text-[8rem] font-perandory text-blue-light flex items-center justify-center bg-blue-dark h-[10rem] mt-[2rem] rounded-sm">
+              <p className="m-0 mt-[2rem]">{sectionTitle}</p>
+            </div>
+          )}
           {/* Loop through experiences in this section */}
           {groupedExperience[sectionTitle].map((expItem) => (
             <div key={expItem.id} className="">
