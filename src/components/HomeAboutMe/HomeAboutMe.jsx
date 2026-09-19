@@ -48,8 +48,8 @@ const HomeAboutMe = () => {
 
           <div className="relative mx-auto w-[1080px] h-full grid grid-cols-[1fr_420px] grid-rows-[40%_60%] gap-x-10">
             {/* Title */}
-            <div className="flex items-end pb-10">
-              <span className="text-white font-perandory text-[9rem] leading-[.75]">
+            <div className="flex items-end">
+              <span className="text-white pb-5 font-perandory text-[9rem] leading-[.75]">
                 A bit about me
               </span>
             </div>
@@ -65,28 +65,31 @@ const HomeAboutMe = () => {
             </div>
 
             {/* Description */}
-            <div className="flex flex-col gap-8 items-start pt-10 font-judson text-blue-large text-[1.1rem] leading-tight">
+            <div className="flex flex-col gap-2 items-start pt-5 font-judson text-blue-large text-[1.1rem] leading-tight">
               <span className=" max-w-full">
-                Hey there! I’m Mallory, a senior at Purdue University graduating
-                in May 2026 with a Bachelor’s degree in Public Relations and
-                Mass Media Communication. During my time at Purdue, I’ve been
-                grateful to gain 10+ internships and work experiences (you can
-                explore them in my Experience tab!), and I’m currently on the
-                hunt for my next opportunity post-graduation.
+                I’m Mallory, a creative marketing professional with experience
+                developing campaigns, content strategies, and digital
+                experiences that connect brands with their audiences.
               </span>
               <span className=" max-w-full">
-                My dream is to work in marketing within the entertainment,
-                beauty, fashion, music, or film industries, but I’m always
-                excited to see where creativity and curiosity may take me. On
-                campus, I’m involved with Higher Ground Dance Company and Purdue
-                Student Government. Outside of class, work, rehearsals, and
-                meetings, you’ll usually find me at a concert, painting, or
-                spending time with the incredible people I’ve met along the way.
+                I started in social media and content creation, which gave me a
+                deep understanding of digital audiences and platform behavior.
+                As my experience grew, I became increasingly interested in what
+                happens before and beyond the post: the campaign strategy,
+                creative concept, partnerships, logistics and coordination
+                required to bring an idea to life. Through my work with Purdue
+                Brand Studio, Her Campus Media, Buzzfeed, freelance brand
+                partnerships, and previous marketing roles, I've gained
+                experience across multiple stages of the marketing process, from
+                strategy and ideation to execution, content production, and
+                performance analysis. I'm now looking to bring that combination
+                of creative and strategic experience into a broader marketing
+                role where I can help develop and execute integrated campaigns.
               </span>
 
               <span className=" max-w-full">
-                Thanks for stopping by. I’m glad you’re here, and I encourage
-                you to connect!
+                Always open to opportunities, collaborations, and conversations.
+                Let’s connect!
               </span>
             </div>
           </div>

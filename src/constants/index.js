@@ -81,6 +81,111 @@ export const contact = [
 
 export const experience = [
   {
+    id: "2",
+    sectiontitle: "",
+    jobtitle:
+      "Creative Lead and Content Creator, Purdue Brand Studio | August 2024- Present",
+    bulletPoints: [
+      {
+        text: "Supported cross-functional creative and marketing teams within Purdue's in-house marketing agency, coordinating content production, creative direction, and on-set logistics for large-scale digital campaigns",
+        subPoints: [],
+      },
+      {
+        text: "Coordinated end-to-end production workflows for Purdue Team Store campaigns, managing timelines, creative briefs, shot lists, talent styling, location scouting, and on-set logistics",
+        subPoints: [],
+      },
+      {
+        text: "Served as the lead visual content creator for Purdue University in Indianapolis, capturing authentic, student-centered stories",
+        subPoints: [],
+      },
+      {
+        text: "Executed content strategies aligned with quarterly marketing briefs to drive campus enrollment, brand awareness, and engagement",
+        subPoints: [],
+      },
+      {
+        text: "Achieved a reach of over 200,000 users, leveraging strategic content creation and platform engagement to increase visibility and interaction with Purdue’s digital audience",
+        subPoints: [],
+      },
+    ],
+  },
+  {
+    id: "4",
+    sectiontitle: "",
+    jobtitle:
+      "Content Creator, Production Assistant, and Photographer, Freelance | August 2022- Present",
+    bulletPoints: [
+      {
+        text: "Represented brands on personal socials, including Clinique, American Eagle, Uber One, Sparkling Ice, Hallmark, Amazon Student Prime, and more",
+        subPoints: [
+          {
+            text: "Maintained an engagement rate between 13%-16% since 2022 and reached over 4K accounts in the past 30 days",
+            subPoints: [],
+          },
+        ],
+      },
+      {
+        text: "Collaborated with marketing teams and brand partners to develop and track social media campaigns while building skills across digital marketing, PR, product marketing, visual branding, and content strategy",
+        subPoints: [],
+      },
+      {
+        text: "Managed production logistics for a lifestyle TV-format series, including casting outreach, talent coordination, and on-set production support (camera + technical direction)",
+        subPoints: [
+          {
+            text: "Served in rotating producer role, contributing to scriptwriting, creative planning, and execution of multi-segment shoots",
+            subPoints: [],
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: "buzzfeed",
+    sectiontitle: "",
+    jobtitle: "Product Management Intern, BuzzFeed | June 2026- August 2026",
+    bulletPoints: [
+      {
+        text: "Spearheaded qualitative user research and focus groups for 3 major BuzzFeed apps (BF Island, Conjure, and Quiz Party), uncovering core user motivators to drive long-term retention",
+        subPoints: [],
+      },
+      {
+        text: "Authored comprehensive product briefs for upcoming feature concepts, explicitly defining user personas, functional scopes, and strategic alignment for leadership approval",
+        subPoints: [],
+      },
+      {
+        text: "Bridged the gap between creative ideation and technical execution by translating raw brainstorming outcomes into structured project roadmaps and technical requirements",
+        subPoints: [],
+      },
+    ],
+  },
+  {
+    id: "3",
+    sectiontitle: "",
+    jobtitle:
+      "Marketing and Communications Intern - SDI Innovations - August 2023- July 2026",
+    bulletPoints: [
+      {
+        text: "Created graphic designs for multiple social media platforms (Instagram, TikTok, Twitter, Facebook), pitch decks, and campaign reports",
+        subPoints: [],
+      },
+      {
+        text: "Maintained an engagement rate of 4% or higher on social platforms, while assisting with community management, social listening, PR campaigns, influencer outreach, and media relations",
+        subPoints: [],
+      },
+      {
+        text: "Strategized and developed campaigns with the Social Media Manager to promote brand awareness and company culture, including trend and performance analysis",
+        subPoints: [],
+      },
+      {
+        text: "Wrote caption copy, blogs, and email marketing content while gaining hands-on project management experience",
+        subPoints: [],
+      },
+      {
+        text: "Created and produced a video series that achieved 3.1K+ pageviews and 2.6K visitors in a single month, with an average time-on-page of 2+ minutes",
+        subPoints: [],
+      },
+    ],
+  },
+  {
     id: "0",
     sectiontitle: "",
     jobtitle:
@@ -108,7 +213,6 @@ export const experience = [
       },
     ],
   },
-
   {
     id: "1",
     sectiontitle: "",
@@ -133,145 +237,6 @@ export const experience = [
       },
     ],
   },
-
-  {
-    id: "2",
-    sectiontitle: "",
-    jobtitle:
-      "Creative Lead and Boiler Ambassador - Purdue Brand Studio - August 2024 – Present",
-    bulletPoints: [
-      {
-        text: "Serve as a Boiler Ambassador at Purdue University, developing engaging digital content to connect with prospective and current students while promoting university life and campus culture",
-        subPoints: [],
-      },
-      {
-        text: "Produced high-quality video and photo content for Instagram and YouTube, showcasing student experiences, campus events, and academic opportunities to enhance Purdue’s online presence",
-        subPoints: [
-          {
-            text: "Achieved a reach of over 200,000 users, leveraging strategic content creation and platform engagement to increase visibility and interaction with Purdue’s digital audience",
-            subPoints: [],
-          },
-        ],
-      },
-      {
-        text: "Oversaw the vision and execution of photo shoots for Purdue Team Store, from developing creative briefs and styling talent to coordinating with photographers and ensuring smooth on-set execution",
-        subPoints: [],
-      },
-      {
-        text: "Told the Purdue story by aligning visuals with campaign goals and keeping creative direction cohesive",
-        subPoints: [],
-      },
-    ],
-  },
-
-  {
-    id: "3",
-    sectiontitle: "",
-    jobtitle:
-      "Marketing and Communications Intern - SDI Innovations - August 2023 – Present",
-    bulletPoints: [
-      {
-        text: "Created graphic designs for multiple social media platforms (Instagram, TikTok, Twitter, Facebook), pitch decks, and campaign reports",
-        subPoints: [],
-      },
-      {
-        text: "Maintained an engagement rate of 4% or higher on social platforms, while assisting with community management, social listening, PR campaigns, influencer outreach, and media relations",
-        subPoints: [],
-      },
-      {
-        text: "Strategized and developed campaigns with the Social Media Manager to promote brand awareness and company culture, including trend and performance analysis",
-        subPoints: [],
-      },
-      {
-        text: "Wrote caption copy, blogs, and email marketing content while gaining hands-on project management experience",
-        subPoints: [],
-      },
-      {
-        text: "Created and produced a video series that achieved 3.1K+ pageviews and 2.6K visitors in a single month, with an average time-on-page of 2+ minutes",
-        subPoints: [],
-      },
-    ],
-  },
-
-  {
-    id: "4",
-    sectiontitle: "",
-    jobtitle:
-      "Content Creation and Ambassadorships - Freelance - 2022 – Present",
-    bulletPoints: [
-      {
-        text: "Developed marketing content including social media updates, blogs, and video campaigns for personal platforms while supporting brands as an ambassador and influencer",
-        subPoints: [],
-      },
-      {
-        text: "Brands represented include CeraVe, Clinique, American Eagle, Uber One, Amazon Student Prime, Hallmark, Sparkling Ice, BEARPAW, and more",
-        subPoints: [],
-      },
-      {
-        text: "Maintained an engagement rate between 13%–16% and reached over 4,000 accounts in the last 30 days",
-        subPoints: [],
-      },
-      {
-        text: "Represented brand partners at on-campus events through tabling activations, product sampling, and student engagement to increase brand awareness",
-        subPoints: [],
-      },
-      {
-        text: "Collaborated with marketing teams and brand partners to develop engaging social media campaigns, track performance, and execute activations",
-        subPoints: [],
-      },
-      {
-        text: "Expanded skills in brand identity, event planning, campaign execution, digital marketing, PR, networking, pitching, product marketing, photography, videography, visual branding, and content strategy",
-        subPoints: [],
-      },
-    ],
-  },
-
-  {
-    id: "6",
-    sectiontitle: "Leadership",
-    jobtitle: "Purdue Student Government - Brand Strategist",
-    at: "",
-    bulletPoints: [
-      {
-        text: "Led university-wide communications strategies, managed multi-platform content, and oversaw a team dedicated to student outreach and engagement",
-        subPoints: [],
-      },
-      {
-        text: "Collaborated with campus partners to promote PSG initiatives, crafted messaging for key events and policies, and supported internal operations",
-        subPoints: [],
-      },
-      {
-        text: "Strengthened leadership, strategic planning, and crisis communication skills while representing a diverse student body",
-        subPoints: [],
-      },
-    ],
-  },
-
-  {
-    id: "7",
-    sectiontitle: "Leadership",
-    jobtitle: "Higher Ground Dance Company - Choreographer",
-    at: "",
-    bulletPoints: [
-      {
-        text: "Created original choreography emphasizing storytelling, musicality, and emotional connection across styles",
-        subPoints: [],
-      },
-      {
-        text: "Led rehearsals with a focus on clarity, adaptability, and inclusive teaching methods",
-        subPoints: [],
-      },
-      {
-        text: "Tailored instruction using visual, verbal, and kinesthetic approaches to support diverse learning styles",
-        subPoints: [],
-      },
-      {
-        text: "Developed skills in creative leadership, collaboration, and inclusive direction",
-        subPoints: [],
-      },
-    ],
-  },
-
   {
     id: "8",
     sectiontitle: "Awards",
